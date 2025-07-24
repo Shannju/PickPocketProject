@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 221,
+    "build": 237,
     "major": 5,
     "minor": 5,
     "revision": 0
@@ -18,7 +18,6 @@
     "scaleMode": "linear",
     "sizeOnStartupMode": "",
     "templateSlug": "starting-first-person",
-    "useExternalSourceFiles": false,
     "version": "1.0.0",
     "name": "Pickpocket1",
     "description": "",
@@ -222,6 +221,5 @@
       "referenceTo": "/eventsFunctionsExtensions/spritetoggleswitch"
     }
   ],
-  "externalLayouts": [],
-  "externalSourceFiles": []
+  "externalLayouts": []
 }

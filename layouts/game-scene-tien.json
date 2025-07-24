@@ -1,0 +1,2142 @@
+{
+  "b": 255,
+  "disableInputWhenNotFocused": true,
+  "mangledName": "Game_32Scene_32tien",
+  "name": "Game Scene tien",
+  "r": 255,
+  "standardSortMethod": true,
+  "stopSoundsOnStartup": true,
+  "title": "",
+  "v": 255,
+  "uiSettings": {
+    "grid": false,
+    "gridType": "rectangular",
+    "gridWidth": 64,
+    "gridHeight": 64,
+    "gridOffsetX": 0,
+    "gridOffsetY": 0,
+    "gridColor": 10401023,
+    "gridAlpha": 0.8,
+    "snap": false,
+    "zoomFactor": 0.5653158055126548,
+    "windowMask": false
+  },
+  "objectsGroups": [],
+  "variables": [
+    {
+      "name": "ControlKind",
+      "type": "string",
+      "value": "Keyboard"
+    }
+  ],
+  "instances": [
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 30,
+      "height": 1000,
+      "keepRatio": true,
+      "layer": "",
+      "locked": true,
+      "name": "Ground",
+      "persistentUuid": "6a14e5ab-5c31-4692-8cd5-c50937fd60c6",
+      "width": 1000,
+      "x": 140,
+      "y": -143,
+      "z": -30,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 60,
+      "height": 128,
+      "layer": "",
+      "name": "Obstacle",
+      "persistentUuid": "ca0783fc-909c-418e-8ce1-00021a50eb13",
+      "width": 128,
+      "x": 320,
+      "y": 448,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 180,
+      "height": 320,
+      "layer": "",
+      "name": "Obstacle",
+      "persistentUuid": "6b301c71-6326-4b68-8e68-9bb7cd5a43fc",
+      "width": 128,
+      "x": 832,
+      "y": 0,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 440,
+      "height": 128,
+      "layer": "",
+      "name": "PushableBox",
+      "persistentUuid": "23eef725-fc64-4eec-8627-4bfb97898d8a",
+      "width": 16,
+      "x": 412,
+      "y": 320,
+      "z": 120,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 720,
+      "layer": "Background",
+      "locked": true,
+      "name": "Skybox",
+      "persistentUuid": "d15cbacb-fb3c-4e6c-94ae-3fe2134650f5",
+      "width": 1280,
+      "x": 0,
+      "y": 0,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "MobileControls",
+      "locked": true,
+      "name": "Joystick_Movement",
+      "persistentUuid": "757f9f40-246a-49c8-a4d3-fe0022b826a7",
+      "width": 0,
+      "x": 170,
+      "y": 576,
+      "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 120,
+      "keepRatio": true,
+      "layer": "MobileControls",
+      "locked": true,
+      "name": "JumpButton",
+      "persistentUuid": "c641f19e-29c5-4424-be1c-656b5505f1ac",
+      "width": 120,
+      "x": 1110,
+      "y": 576,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 180,
+      "height": 320,
+      "layer": "",
+      "name": "Obstacle",
+      "persistentUuid": "7d546d65-52a7-420f-a48c-4781e86cfe51",
+      "width": 128,
+      "x": 320,
+      "y": 0,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 120,
+      "height": 128,
+      "layer": "",
+      "name": "Obstacle",
+      "persistentUuid": "380775e6-26ee-476b-bd88-4f7960166508",
+      "width": 128,
+      "x": 320,
+      "y": 320,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 120,
+      "height": 128,
+      "layer": "",
+      "name": "Obstacle",
+      "persistentUuid": "03fa04af-e8bd-45a9-a0c1-016a54c0e109",
+      "width": 128,
+      "x": 832,
+      "y": 320,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 60,
+      "height": 128,
+      "layer": "",
+      "name": "Obstacle",
+      "persistentUuid": "5178807c-226a-4d1a-88d2-31682c13160c",
+      "width": 128,
+      "x": 832,
+      "y": 448,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 80,
+      "height": 50,
+      "layer": "",
+      "name": "Player",
+      "persistentUuid": "21360899-9239-44bc-86fa-6b7a8dbc66b0",
+      "width": 50,
+      "x": 615,
+      "y": 768,
+      "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "MobileControls",
+      "locked": true,
+      "name": "ControlsToggle",
+      "persistentUuid": "8f7d9c3d-1567-4a65-867e-d042f38c0e86",
+      "width": 0,
+      "x": 32,
+      "y": 32,
+      "zOrder": 15,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Skybox",
+      "persistentUuid": "b64123f2-3094-46c3-bc6c-cbb8973febbd",
+      "width": 0,
+      "x": 858,
+      "y": 519,
+      "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 360,
+      "customSize": true,
+      "depth": 1,
+      "height": 556,
+      "keepRatio": true,
+      "layer": "MobileControls",
+      "name": "TimingBar",
+      "persistentUuid": "63e1ae00-a5b6-42c3-b3bc-23cf6a5e43ad",
+      "width": 607,
+      "x": 296,
+      "y": -129,
+      "zOrder": 100,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 139,
+      "keepRatio": true,
+      "layer": "MobileControls",
+      "name": "TextSuccess",
+      "persistentUuid": "e423af56-5a9b-409f-9e42-72f9fc86106f",
+      "width": 433,
+      "x": 439,
+      "y": 620,
+      "zOrder": 100,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "FemaleCasual",
+      "persistentUuid": "b6c3f434-2f4a-46c9-b440-a5d90de07ac7",
+      "width": 0,
+      "x": 633,
+      "y": 380,
+      "z": 50,
+      "zOrder": 202,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "MobileControls",
+      "name": "TextFailure",
+      "persistentUuid": "a2c748eb-9fb7-4b54-90e4-b9efccdc5b3a",
+      "width": 0,
+      "x": 605,
+      "y": 578,
+      "zOrder": 203,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 423,
+      "keepRatio": true,
+      "layer": "MobileControls",
+      "name": "SweetSpot",
+      "persistentUuid": "aba56498-1229-431a-88ab-a49300bfb1f3",
+      "width": 377,
+      "x": 451,
+      "y": -88,
+      "zOrder": 204,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 99,
+      "keepRatio": true,
+      "layer": "MobileControls",
+      "name": "MouseCursor",
+      "persistentUuid": "5dffe3c0-2d78-4d7d-990d-6aba971b70dc",
+      "width": 73,
+      "x": 468,
+      "y": 129,
+      "zOrder": 205,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    }
+  ],
+  "objects": [
+    {
+      "assetStoreId": "",
+      "name": "Ground",
+      "type": "Scene3D::Cube3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Physics3D",
+          "type": "Physics3D::Physics3DBehavior",
+          "object3D": "Object3D",
+          "bodyType": "Static",
+          "bullet": false,
+          "fixedRotation": false,
+          "shape": "Box",
+          "shapeOrientation": "Z",
+          "shapeDimensionA": 0,
+          "shapeDimensionB": 0,
+          "shapeDimensionC": 0,
+          "density": 1,
+          "friction": 0.3,
+          "restitution": 0.1,
+          "linearDamping": 0.1,
+          "angularDamping": 0.1,
+          "gravityScale": 1,
+          "layers": 17,
+          "masks": 17,
+          "shapeOffsetX": 0,
+          "shapeOffsetY": 0,
+          "shapeOffsetZ": 0,
+          "massCenterOffsetX": 0,
+          "massCenterOffsetY": 0,
+          "massCenterOffsetZ": 0,
+          "massOverride": 0
+        }
+      ],
+      "content": {
+        "width": 1000,
+        "height": 1000,
+        "depth": 40,
+        "enableTextureTransparency": false,
+        "facesOrientation": "Y",
+        "frontFaceResourceName": "assets\\StartingGround.png",
+        "backFaceResourceName": "",
+        "backFaceUpThroughWhichAxisRotation": "X",
+        "leftFaceResourceName": "assets\\StartingWall.png",
+        "rightFaceResourceName": "assets\\StartingWall.png",
+        "topFaceResourceName": "assets\\StartingWall.png",
+        "bottomFaceResourceName": "assets\\StartingWall.png",
+        "frontFaceVisible": true,
+        "backFaceVisible": false,
+        "leftFaceVisible": true,
+        "rightFaceVisible": true,
+        "topFaceVisible": true,
+        "bottomFaceVisible": true,
+        "frontFaceResourceRepeat": true,
+        "backFaceResourceRepeat": false,
+        "leftFaceResourceRepeat": false,
+        "rightFaceResourceRepeat": false,
+        "topFaceResourceRepeat": false,
+        "bottomFaceResourceRepeat": false,
+        "materialType": "StandardWithoutMetalness",
+        "isCastingShadow": true,
+        "isReceivingShadow": true
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Obstacle",
+      "type": "Scene3D::Cube3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Physics3D",
+          "type": "Physics3D::Physics3DBehavior",
+          "object3D": "Object3D",
+          "bodyType": "Static",
+          "bullet": false,
+          "fixedRotation": false,
+          "shape": "Box",
+          "shapeOrientation": "Z",
+          "shapeDimensionA": 0,
+          "shapeDimensionB": 0,
+          "shapeDimensionC": 0,
+          "density": 1,
+          "friction": 0.3,
+          "restitution": 0.1,
+          "linearDamping": 0.1,
+          "angularDamping": 0.1,
+          "gravityScale": 1,
+          "layers": 17,
+          "masks": 17,
+          "shapeOffsetX": 0,
+          "shapeOffsetY": 0,
+          "shapeOffsetZ": 0,
+          "massCenterOffsetX": 0,
+          "massCenterOffsetY": 0,
+          "massCenterOffsetZ": 0,
+          "massOverride": 0
+        }
+      ],
+      "content": {
+        "width": 100,
+        "height": 100,
+        "depth": 100,
+        "enableTextureTransparency": false,
+        "facesOrientation": "Y",
+        "frontFaceResourceName": "assets\\StartingWall.png",
+        "backFaceResourceName": "",
+        "backFaceUpThroughWhichAxisRotation": "X",
+        "leftFaceResourceName": "assets\\StartingWall.png",
+        "rightFaceResourceName": "assets\\StartingWall.png",
+        "topFaceResourceName": "assets\\StartingWall.png",
+        "bottomFaceResourceName": "assets\\StartingWall.png",
+        "frontFaceVisible": true,
+        "backFaceVisible": false,
+        "leftFaceVisible": true,
+        "rightFaceVisible": true,
+        "topFaceVisible": true,
+        "bottomFaceVisible": true,
+        "frontFaceResourceRepeat": false,
+        "backFaceResourceRepeat": false,
+        "leftFaceResourceRepeat": false,
+        "rightFaceResourceRepeat": false,
+        "topFaceResourceRepeat": false,
+        "bottomFaceResourceRepeat": false,
+        "materialType": "StandardWithoutMetalness",
+        "isCastingShadow": true,
+        "isReceivingShadow": true
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "PushableBox",
+      "type": "Scene3D::Cube3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Physics3D",
+          "type": "Physics3D::Physics3DBehavior",
+          "object3D": "Object3D",
+          "bodyType": "Dynamic",
+          "bullet": false,
+          "fixedRotation": false,
+          "shape": "Box",
+          "shapeOrientation": "Z",
+          "shapeDimensionA": 0,
+          "shapeDimensionB": 0,
+          "shapeDimensionC": 0,
+          "density": 10,
+          "friction": 3,
+          "restitution": 0.1,
+          "linearDamping": 4,
+          "angularDamping": 5,
+          "gravityScale": 1,
+          "layers": 17,
+          "masks": 17,
+          "shapeOffsetX": 0,
+          "shapeOffsetY": 0,
+          "shapeOffsetZ": 0,
+          "massCenterOffsetX": 0,
+          "massCenterOffsetY": 0,
+          "massCenterOffsetZ": 0,
+          "massOverride": 0
+        }
+      ],
+      "content": {
+        "width": 100,
+        "height": 100,
+        "depth": 100,
+        "enableTextureTransparency": false,
+        "facesOrientation": "Y",
+        "frontFaceResourceName": "assets\\StarterPushable.png",
+        "backFaceResourceName": "assets\\StarterPushable.png",
+        "backFaceUpThroughWhichAxisRotation": "X",
+        "leftFaceResourceName": "assets\\StarterPushable.png",
+        "rightFaceResourceName": "assets\\StarterPushable.png",
+        "topFaceResourceName": "assets\\StarterPushable.png",
+        "bottomFaceResourceName": "assets\\StarterPushable.png",
+        "frontFaceVisible": true,
+        "backFaceVisible": true,
+        "leftFaceVisible": true,
+        "rightFaceVisible": true,
+        "topFaceVisible": true,
+        "bottomFaceVisible": true,
+        "frontFaceResourceRepeat": false,
+        "backFaceResourceRepeat": false,
+        "leftFaceResourceRepeat": false,
+        "rightFaceResourceRepeat": false,
+        "topFaceResourceRepeat": false,
+        "bottomFaceResourceRepeat": false,
+        "materialType": "StandardWithoutMetalness",
+        "isCastingShadow": true,
+        "isReceivingShadow": true
+      }
+    },
+    {
+      "assetStoreId": "",
+      "height": 128,
+      "name": "Skybox",
+      "texture": "assets\\StartingBackground.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 128,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "e71bd69f896d6c7531b48c65ceb5da25071d4fbdeb518aeceecba8d21f34ed8d",
+      "name": "Joystick_Movement",
+      "type": "SpriteMultitouchJoystick::SpriteMultitouchJoystick",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "DeadZoneRadius": 0.1
+      },
+      "childrenContent": {
+        "Border": {
+          "adaptCollisionMaskAutomatically": false,
+          "updateIfNotVisible": false,
+          "animations": [
+            {
+              "name": "Idle",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Flat dark joystick border.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "Thumb": {
+          "adaptCollisionMaskAutomatically": false,
+          "updateIfNotVisible": false,
+          "animations": [
+            {
+              "name": "Idle",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Flat dark joystick thumb.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "9c727020616afdd6ba786b8af206a90481f07db0ca175ed6a4cc5b7e01c66d06",
+      "name": "JumpButton",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "MultitouchButton",
+          "type": "SpriteMultitouchJoystick::MultitouchButton",
+          "ControllerIdentifier": 1,
+          "ButtonIdentifier": "A",
+          "TouchId": 0,
+          "TouchIndex": 2.0247e-320,
+          "IsReleased": false
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Top arrow button.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 40,
+                    "y": 40
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 40
+                      },
+                      {
+                        "x": 10,
+                        "y": 10
+                      },
+                      {
+                        "x": 40,
+                        "y": 0
+                      },
+                      {
+                        "x": 70,
+                        "y": 10
+                      },
+                      {
+                        "x": 80,
+                        "y": 40
+                      },
+                      {
+                        "x": 70,
+                        "y": 70
+                      },
+                      {
+                        "x": 40,
+                        "y": 80
+                      },
+                      {
+                        "x": 10,
+                        "y": 70
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "Player",
+      "type": "Scene3D::Cube3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "isFolded": true,
+          "name": "FirstPersonMultitouchMapper",
+          "type": "SpriteMultitouchJoystick::FirstPersonMultitouchMapper",
+          "Object3D": "Object3D",
+          "ControllerIdentifier": 2,
+          "CameraStick": "Secondary",
+          "HorizontalRotationSpeedMax": 110,
+          "HorizontalRotationAcceleration": 120,
+          "HorizontalRotationDeceleration": 600,
+          "VerticalRotationSpeedMax": 80,
+          "VerticalRotationAcceleration": 120,
+          "VerticalRotationDeceleration": 480,
+          "VerticalAngleMin": -90,
+          "VerticalAngleMax": 90,
+          "OffsetZ": 0,
+          "CurrentRotationSpeedZ": 0,
+          "CurrentRotationSpeedY": 0
+        },
+        {
+          "isFolded": true,
+          "name": "FirstPersonPointerMapper",
+          "type": "MousePointerLock::FirstPersonPointerMapper",
+          "Object3D": "Object3D",
+          "HorizontalSpeed": 100,
+          "VerticalSpeed": 80,
+          "VerticalAngleMin": -90,
+          "VerticalAngleMax": 90,
+          "OffsetZ": 0,
+          "ShouldLock": false
+        },
+        {
+          "isFolded": true,
+          "name": "Physics3D",
+          "type": "Physics3D::Physics3DBehavior",
+          "object3D": "Object3D",
+          "bodyType": "Dynamic",
+          "bullet": false,
+          "fixedRotation": false,
+          "shape": "Capsule",
+          "shapeOrientation": "Z",
+          "shapeDimensionA": 0,
+          "shapeDimensionB": 0,
+          "shapeDimensionC": 0,
+          "density": 1,
+          "friction": 0.3,
+          "restitution": 0.1,
+          "linearDamping": 0.1,
+          "angularDamping": 0.1,
+          "gravityScale": 1,
+          "layers": 17,
+          "masks": 17,
+          "shapeOffsetX": 0,
+          "shapeOffsetY": 0,
+          "shapeOffsetZ": 0,
+          "massCenterOffsetX": 0,
+          "massCenterOffsetY": 0,
+          "massCenterOffsetZ": 0,
+          "massOverride": 0
+        },
+        {
+          "isFolded": true,
+          "name": "PhysicsCharacter3D",
+          "type": "Physics3D::PhysicsCharacter3D",
+          "physics3D": "Physics3D",
+          "jumpHeight": 100,
+          "jumpSustainTime": 0.3,
+          "gravity": 800,
+          "fallingSpeedMax": 450,
+          "forwardAcceleration": 650,
+          "forwardDeceleration": 1600,
+          "forwardSpeedMax": 300,
+          "sidewaysAcceleration": 650,
+          "sidewaysDeceleration": 1600,
+          "sidewaysSpeedMax": 400,
+          "slopeMaxAngle": 50,
+          "stairHeightMax": 20,
+          "shouldBindObjectAndForwardAngle": true,
+          "canBePushed": true
+        },
+        {
+          "isFolded": true,
+          "name": "Shooter3DKeyboardMapper",
+          "type": "PhysicsCharacter3DKeyMapper::Shooter3DKeyboardMapper",
+          "PhysicsCharacter3D": "PhysicsCharacter3D",
+          "Jump": "Space",
+          "Up": "w",
+          "Left": "a",
+          "Down": "s",
+          "Right": "d"
+        },
+        {
+          "isFolded": true,
+          "name": "Shooter3DMultitouchMapper",
+          "type": "SpriteMultitouchJoystick::Shooter3DMultitouchMapper",
+          "PhysicsCharacter3D": "PhysicsCharacter3D",
+          "ControllerIdentifier": 1,
+          "JoystickIdentifier": "Primary",
+          "JumpButton": "A"
+        }
+      ],
+      "content": {
+        "width": 100,
+        "height": 100,
+        "depth": 100,
+        "enableTextureTransparency": false,
+        "facesOrientation": "Z",
+        "frontFaceResourceName": "",
+        "backFaceResourceName": "",
+        "backFaceUpThroughWhichAxisRotation": "X",
+        "leftFaceResourceName": "",
+        "rightFaceResourceName": "",
+        "topFaceResourceName": "",
+        "bottomFaceResourceName": "",
+        "frontFaceVisible": true,
+        "backFaceVisible": false,
+        "leftFaceVisible": true,
+        "rightFaceVisible": true,
+        "topFaceVisible": true,
+        "bottomFaceVisible": true,
+        "frontFaceResourceRepeat": false,
+        "backFaceResourceRepeat": false,
+        "leftFaceResourceRepeat": false,
+        "rightFaceResourceRepeat": false,
+        "topFaceResourceRepeat": false,
+        "bottomFaceResourceRepeat": false,
+        "materialType": "StandardWithoutMetalness",
+        "isReceivingShadow": true,
+        "isCastingShadow": true
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "ControlsToggle",
+      "type": "SpriteToggleSwitch::SpriteToggleSwitch",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "IsChecked": false
+      },
+      "childrenContent": {
+        "State": {
+          "adaptCollisionMaskAutomatically": true,
+          "updateIfNotVisible": false,
+          "animations": [
+            {
+              "name": "Unchecked",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "StarterToggle_Keyboard.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 1
+                          },
+                          {
+                            "x": 201,
+                            "y": 1
+                          },
+                          {
+                            "x": 201,
+                            "y": 63
+                          },
+                          {
+                            "x": 2,
+                            "y": 63
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Checked",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "StarterToggle_Touch.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 1
+                          },
+                          {
+                            "x": 201,
+                            "y": 1
+                          },
+                          {
+                            "x": 201,
+                            "y": 63
+                          },
+                          {
+                            "x": 2,
+                            "y": 63
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "TimingBar",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 21,
+                        "y": 27
+                      },
+                      {
+                        "x": 51,
+                        "y": 27
+                      },
+                      {
+                        "x": 51,
+                        "y": 32
+                      },
+                      {
+                        "x": 21,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "SweetSpot",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 26,
+                        "y": 30
+                      },
+                      {
+                        "x": 36,
+                        "y": 30
+                      },
+                      {
+                        "x": 36,
+                        "y": 35
+                      },
+                      {
+                        "x": 26,
+                        "y": 35
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "1eb4cd711105845df700fbf58f97975baac47fa2997765560fd8c15d38775d0f",
+      "name": "MouseCursor",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "Speed",
+          "type": "number",
+          "value": 200
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "TimedBackAndForthMirroredMovement",
+          "type": "TimedBackAndForthMovement::TimedBackAndForthMirroredMovement",
+          "Flippable": "Flippable",
+          "Vertical": false,
+          "Speed": 200,
+          "Distance": 250,
+          "Timeout": 2,
+          "StartPosition": 0,
+          "LastPosition": 0,
+          "Timecheck": 0
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Mouse Cursor.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 8,
+                        "y": 0
+                      },
+                      {
+                        "x": 8,
+                        "y": 11
+                      },
+                      {
+                        "x": 0,
+                        "y": 11
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Drop Shadowed",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Mouse Cursor_Drop Shadowed.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 8,
+                        "y": 0
+                      },
+                      {
+                        "x": 8,
+                        "y": 11
+                      },
+                      {
+                        "x": 0,
+                        "y": 11
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "TextSuccess",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Success!!",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 20,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Success!!",
+        "font": "",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 20,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "TextFailure",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Failure!!",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 20,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Failure!!",
+        "font": "",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 20,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "0e775c600127d9a1ebab3c701cd072a16d02ed4f99499b8bffc6113ecd5d224e",
+      "name": "FemaleCasual",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "crossfadeDuration": 0.10000000149011612,
+        "depth": 151,
+        "height": 151,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Female Casual.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 151,
+        "animations": [
+          {
+            "loop": true,
+            "name": "Idle",
+            "source": "Female_Idle"
+          },
+          {
+            "loop": true,
+            "name": "Walk",
+            "source": "Female_Walk"
+          },
+          {
+            "loop": true,
+            "name": "Run",
+            "source": "Female_Run"
+          },
+          {
+            "loop": false,
+            "name": "Jump",
+            "source": "Female_Jump"
+          },
+          {
+            "loop": false,
+            "name": "Punch",
+            "source": "Female_Punch"
+          },
+          {
+            "loop": false,
+            "name": "Death",
+            "source": "Female_Death"
+          },
+          {
+            "loop": false,
+            "name": "RunningJump",
+            "source": "Female_RunningJump"
+          },
+          {
+            "loop": false,
+            "name": "Roll",
+            "source": "Female_Roll"
+          },
+          {
+            "loop": false,
+            "name": "Sitting",
+            "source": "Female_Sitting"
+          },
+          {
+            "loop": false,
+            "name": "Standing",
+            "source": "Female_Standing"
+          },
+          {
+            "loop": false,
+            "name": "SwordSlash",
+            "source": "Female_SwordSlash"
+          },
+          {
+            "loop": false,
+            "name": "Clapping",
+            "source": "Female_Clapping"
+          }
+        ]
+      }
+    }
+  ],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "objectName": "Player"
+      },
+      {
+        "objectName": "PushableBox"
+      },
+      {
+        "objectName": "Obstacle"
+      },
+      {
+        "objectName": "Ground"
+      },
+      {
+        "objectName": "Skybox"
+      },
+      {
+        "objectName": "ControlsToggle"
+      },
+      {
+        "folderName": "Mobile Controls",
+        "children": [
+          {
+            "objectName": "Joystick_Movement"
+          },
+          {
+            "objectName": "JumpButton"
+          }
+        ]
+      },
+      {
+        "objectName": "SweetSpot"
+      },
+      {
+        "objectName": "MouseCursor"
+      },
+      {
+        "objectName": "TextSuccess"
+      },
+      {
+        "objectName": "FemaleCasual"
+      },
+      {
+        "objectName": "TextFailure"
+      },
+      {
+        "objectName": "TimingBar"
+      }
+    ]
+  },
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "Player"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Joystick_Movement"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "JumpButton"
+              ]
+            },
+            {
+              "type": {
+                "value": "SpriteMultitouchJoystick::SpriteMultitouchJoystick::ActivateControl"
+              },
+              "parameters": [
+                "Joystick_Movement",
+                "",
+                ""
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "FirstPersonCamera::LookFromObjectEyes"
+          },
+          "parameters": [
+            "",
+            "Player",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Scene3D::SetCameraZ"
+          },
+          "parameters": [
+            "",
+            "+",
+            "64",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "TextSuccess"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "TextFailure"
+          ]
+        }
+      ]
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Controls toggle",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SpriteToggleSwitch::SpriteToggleSwitch::HasJustBeenToggled"
+              },
+              "parameters": [
+                "ControlsToggle",
+                ""
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Set to Touch"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SpriteToggleSwitch::SpriteToggleSwitch::IsChecked"
+                  },
+                  "parameters": [
+                    "ControlsToggle",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "ControlKind",
+                    "=",
+                    "\"Touch\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "JumpButton",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "JumpButton",
+                    "MultitouchButton",
+                    "yes"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Set to Keyboard"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "SpriteToggleSwitch::SpriteToggleSwitch::IsChecked"
+                  },
+                  "parameters": [
+                    "ControlsToggle",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "ControlKind",
+                    "=",
+                    "\"Keyboard\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "JumpButton"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "JumpButton",
+                    "MultitouchButton",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Mobile controls",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "StringVariable"
+              },
+              "parameters": [
+                "ControlKind",
+                "=",
+                "\"Touch\""
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "ControlsToggle",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SpriteMultitouchJoystick::HasTouchStartedOnScreenSide"
+                  },
+                  "parameters": [
+                    "",
+                    "Joystick_Movement",
+                    "\"Left\"",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SpriteMultitouchJoystick::SpriteMultitouchJoystick::TeleportAndPress"
+                  },
+                  "parameters": [
+                    "Joystick_Movement",
+                    "CursorX(\"UI\")",
+                    "CursorY(\"UI\")",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "MouseButtonFromTextPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Left\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "SpriteMultitouchJoystick::HasTouchStartedOnScreenSide"
+                      },
+                      "parameters": [
+                        "",
+                        "Joystick_Movement",
+                        "\"Left\"",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "SpriteMultitouchJoystick::MultitouchButton::IsPressed"
+                      },
+                      "parameters": [
+                        "JumpButton",
+                        "MultitouchButton",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "MousePointerLock::RequestPointerLock"
+                      },
+                      "parameters": [
+                        "",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "folded": true,
+      "name": "Keyboard controls",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "StringVariable"
+              },
+              "parameters": [
+                "ControlKind",
+                "=",
+                "\"Keyboard\""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "ControlsToggle",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "MousePointerLock::isPointerLocked"
+              },
+              "parameters": [
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "MousePointerLock::RequestPointerLock"
+              },
+              "parameters": [
+                "",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "MiniChallenge",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [],
+      "parameters": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "KeyFromTextPressed"
+          },
+          "parameters": [
+            "",
+            "\"q\""
+          ]
+        },
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "MouseCursor",
+            "SweetSpot",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Arreter"
+          },
+          "parameters": [
+            "MouseCursor"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
+    }
+  ],
+  "layers": [
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "Background",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [
+        {
+          "defaultSize": true,
+          "defaultViewport": true,
+          "height": 0,
+          "viewportBottom": 1,
+          "viewportLeft": 0,
+          "viewportRight": 1,
+          "viewportTop": 0,
+          "width": 0
+        }
+      ],
+      "effects": [
+        {
+          "effectType": "Scene3D::AmbientLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "intensity": 0.25
+          },
+          "stringParameters": {
+            "color": "255;255;255"
+          },
+          "booleanParameters": {}
+        },
+        {
+          "effectType": "Scene3D::DirectionalLight",
+          "name": "Effect",
+          "doubleParameters": {
+            "distanceFromCamera": 1500,
+            "elevation": 45,
+            "frustumSize": 4000,
+            "intensity": 0.75,
+            "rotation": 30
+          },
+          "stringParameters": {
+            "color": "255;255;255",
+            "shadowQuality": "medium",
+            "top": "Z+"
+          },
+          "booleanParameters": {
+            "isCastingShadow": true
+          }
+        }
+      ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "MobileControls",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    }
+  ],
+  "behaviorsSharedData": [
+    {
+      "name": "Animation",
+      "type": "AnimatableCapability::AnimatableBehavior"
+    },
+    {
+      "name": "Effect",
+      "type": "EffectCapability::EffectBehavior"
+    },
+    {
+      "name": "FirstPersonMultitouchMapper",
+      "type": "SpriteMultitouchJoystick::FirstPersonMultitouchMapper"
+    },
+    {
+      "name": "FirstPersonPointerMapper",
+      "type": "MousePointerLock::FirstPersonPointerMapper"
+    },
+    {
+      "name": "Flippable",
+      "type": "FlippableCapability::FlippableBehavior"
+    },
+    {
+      "name": "MultitouchButton",
+      "type": "SpriteMultitouchJoystick::MultitouchButton"
+    },
+    {
+      "name": "Object3D",
+      "type": "Scene3D::Base3DBehavior"
+    },
+    {
+      "name": "Opacity",
+      "type": "OpacityCapability::OpacityBehavior"
+    },
+    {
+      "name": "Physics3D",
+      "type": "Physics3D::Physics3DBehavior",
+      "gravityX": 0,
+      "gravityY": 0,
+      "gravityZ": -9.8,
+      "worldScale": 100
+    },
+    {
+      "name": "PhysicsCharacter3D",
+      "type": "Physics3D::PhysicsCharacter3D"
+    },
+    {
+      "name": "Resizable",
+      "type": "ResizableCapability::ResizableBehavior"
+    },
+    {
+      "name": "Scale",
+      "type": "ScalableCapability::ScalableBehavior"
+    },
+    {
+      "name": "Shooter3DKeyboardMapper",
+      "type": "PhysicsCharacter3DKeyMapper::Shooter3DKeyboardMapper"
+    },
+    {
+      "name": "Shooter3DMultitouchMapper",
+      "type": "SpriteMultitouchJoystick::Shooter3DMultitouchMapper"
+    },
+    {
+      "name": "Text",
+      "type": "TextContainerCapability::TextContainerBehavior"
+    },
+    {
+      "name": "TimedBackAndForthMirroredMovement",
+      "type": "TimedBackAndForthMovement::TimedBackAndForthMirroredMovement"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 237,
+    "build": 228,
     "major": 5,
     "minor": 5,
     "revision": 0
@@ -249,407 +249,34 @@
         }
       },
       {
-        "file": "assets/StartingGround - Copy.png",
-        "kind": "image",
+        "file": "11l-victory_sound_with_t-1749487409696-357609.mp3",
+        "kind": "audio",
         "metadata": "",
-        "name": "assets\\StartingGround - Copy.png",
-        "smoothed": true,
+        "name": "11l-victory_sound_with_t-1749487409696-357609.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
         "userAdded": false
       },
       {
-        "file": "assets/Railroad Straight2.glb",
-        "kind": "model3D",
+        "file": "failure-4-with-gong-69906.mp3",
+        "kind": "audio",
         "metadata": "",
-        "name": "Railroad Straight.glb",
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Trains 2/445acc930c2a0eb6713569c782ccd92ec6648dfc9c2caa1d4090b4ba72f5eb03_Railroad Straight.glb",
-          "name": "Railroad Straight.glb"
-        }
+        "name": "failure-4-with-gong-69906.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       },
       {
-        "file": "assets/Train Electric City A2.glb",
-        "kind": "model3D",
+        "file": "background.mp3",
+        "kind": "audio",
         "metadata": "",
-        "name": "Train Electric City A.glb",
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Trains 2/Vehicle/17634e3678f7ec31cbe734e017a7f126bcd0d4c5d5bd697c87d1272d0c795960_Train Electric City A.glb",
-          "name": "Train Electric City A.glb"
-        }
-      },
-      {
-        "file": "assets/Train Locomotive B.glb",
-        "kind": "model3D",
-        "metadata": "",
-        "name": "Train Locomotive B.glb",
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Trains 2/Vehicle/178db0557295e1d6a15ac510ed502f1d97c7d27160b5c352ab80c546101fce57_Train Locomotive B.glb",
-          "name": "Train Locomotive B.glb"
-        }
-      },
-      {
-        "file": "assets/Train Locomotive Passenger B.glb",
-        "kind": "model3D",
-        "metadata": "",
-        "name": "Train Locomotive Passenger B.glb",
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Trains 2/Vehicle/1c001a46aa670235f17ef2c03c594ffec5732519f1227d2236f8927844b7e764_Train Locomotive Passenger B.glb",
-          "name": "Train Locomotive Passenger B.glb"
-        }
-      },
-      {
-        "file": "assets/Female Dress2.glb",
-        "kind": "model3D",
-        "metadata": "",
-        "name": "Female Dress.glb",
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Animated Characters/Character/4bad5d9fa0fb1b72754990d0f46d13e97d581b8b33cf40ed829ed857742738c8_Female Dress.glb",
-          "name": "Female Dress.glb"
-        }
-      },
-      {
-        "file": "assets/Female Alternative2.glb",
-        "kind": "model3D",
-        "metadata": "",
-        "name": "Female Alternative.glb",
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Animated Characters/Character/3d7c46098c67c6e3751bc95f692b16fa304d3f659613ed7cf76ea81365ab654a_Female Alternative.glb",
-          "name": "Female Alternative.glb"
-        }
-      },
-      {
-        "file": "assets/Female Tank Top2.glb",
-        "kind": "model3D",
-        "metadata": "",
-        "name": "Female Tank Top.glb",
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Animated Characters/Character/19b430d7b7bbdf10085865f230a8025745e645a94bc4a8a9af13a43cfcaf494f_Female Tank Top.glb",
-          "name": "Female Tank Top.glb"
-        }
-      },
-      {
-        "file": "assets/Male Long Sleeve2.glb",
-        "kind": "model3D",
-        "metadata": "",
-        "name": "Male Long Sleeve.glb",
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Animated Characters/Character/3d5c5f34b00bd87d9742844e7b54f94a6a8327cd1d292307719ee3d93ac47ce4_Male Long Sleeve.glb",
-          "name": "Male Long Sleeve.glb"
-        }
-      },
-      {
-        "file": "assets/Male Casual2.glb",
-        "kind": "model3D",
-        "metadata": "",
-        "name": "Male Casual.glb",
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Animated Characters/Character/9e45e58c10682186015966e9739499ac835b807ab0cb20be0f648458ecf44a0d_Male Casual.glb",
-          "name": "Male Casual.glb"
-        }
-      },
-      {
-        "file": "assets/Male Shirt2.glb",
-        "kind": "model3D",
-        "metadata": "",
-        "name": "Male Shirt.glb",
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Animated Characters/Character/e46cf16d5b47cde3bcd9c38ec2a2cec07c4190ec303d5eec6baaca39b970c25e_Male Shirt.glb",
-          "name": "Male Shirt.glb"
-        }
-      },
-      {
-        "file": "assets/Male Suit3.glb",
-        "kind": "model3D",
-        "metadata": "",
-        "name": "Male Suit.glb",
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Animated Characters/Character/91ef2bbf408b6f45b3ce895df42e341c88e19569531f36d0ccdd04e6d2aea216_Male Suit.glb",
-          "name": "Male Suit.glb"
-        }
-      },
-      {
-        "file": "assets/Male Beach2.glb",
-        "kind": "model3D",
-        "metadata": "",
-        "name": "Male Beach.glb",
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Animated Characters/e592dffd5907d2c691fb31e2f15150d2e6cd182b5c66e1c37e0387d7e0210a8c_Male Beach.glb",
-          "name": "Male Beach.glb"
-        }
-      },
-      {
-        "file": "assets/Male Casual3.glb",
-        "kind": "model3D",
-        "metadata": "",
-        "name": "Male Casual 2.glb",
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Animated Characters/6d3ad6067c1c4ca2445dbc962dc038f8af6c932ec71f9c57c719a86d10fe585d_Male Casual 2.glb",
-          "name": "Male Casual 2.glb"
-        }
-      },
-      {
-        "file": "assets/Male Casual Hoodie2.glb",
-        "kind": "model3D",
-        "metadata": "",
-        "name": "Male Casual Hoodie.glb",
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Animated Characters/951214272d62e445cce5eeaed57d59d6c3ae1ceb7a23b80fe832513d06acae40_Male Casual Hoodie.glb",
-          "name": "Male Casual Hoodie.glb"
-        }
-      },
-      {
-        "file": "assets/Male Farmer2.glb",
-        "kind": "model3D",
-        "metadata": "",
-        "name": "Male Farmer.glb",
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Animated Characters/cf990e5a3fa8f62b1fb81398be06a66b74f5f4c8a867a78d27b2d2781a586bc9_Male Farmer.glb",
-          "name": "Male Farmer.glb"
-        }
-      },
-      {
-        "file": "assets/Swat2.glb",
-        "kind": "model3D",
-        "metadata": "",
-        "name": "Swat.glb",
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Animated Characters/f0ea6116fa052a799bed9ed1901513e9014d163214d84a3ccbd99aad1e93a4f3_Swat.glb",
-          "name": "Swat.glb"
-        }
-      },
-      {
-        "file": "assets/Male Punk2.glb",
-        "kind": "model3D",
-        "metadata": "",
-        "name": "Male Punk.glb",
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Animated Characters/db9697a52f0532d9d484e7949a4d47792db15d737bf032ea40368ba94cd5cb7a_Male Punk.glb",
-          "name": "Male Punk.glb"
-        }
-      },
-      {
-        "file": "assets/Male Worker2.glb",
-        "kind": "model3D",
-        "metadata": "",
-        "name": "Male Worker.glb",
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Animated Characters/8c0222d7d00ecb0a5bd3b4ecd6bd6a9d8a90f61627f5e6e599400eb80dc3f1a0_Male Worker.glb",
-          "name": "Male Worker.glb"
-        }
-      },
-      {
-        "file": "assets/Male Suit4.glb",
-        "kind": "model3D",
-        "metadata": "",
-        "name": "Male Suit.glb2",
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Animated Characters/26b737045a0bbcda518310eaebd57a2dca2acb1c840d3344ee7e1115050bdfe9_Male Suit.glb",
-          "name": "Male Suit.glb"
-        }
-      },
-      {
-        "file": "assets/Femal Casual3.glb",
-        "kind": "model3D",
-        "metadata": "",
-        "name": "Femal Casual 2.glb",
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Animated Characters/47e5b2e823e06394b2ab56b1eae5acfedc4c103410e820ff6e3f34ea70af698f_Femal Casual 2.glb",
-          "name": "Femal Casual 2.glb"
-        }
-      },
-      {
-        "file": "assets/Femal Adventurer2.glb",
-        "kind": "model3D",
-        "metadata": "",
-        "name": "Femal Adventurer.glb",
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Animated Characters/9c7e9a8d2e68f8e0a31fb7956a6c35b41572e2b04b051cb87e396c33f48d85a1_Femal Adventurer.glb",
-          "name": "Femal Adventurer.glb"
-        }
-      },
-      {
-        "file": "assets/Femal Punk2.glb",
-        "kind": "model3D",
-        "metadata": "",
-        "name": "Femal Punk.glb",
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Animated Characters/dd893a1dc939bf852291421d54c4b66b7e350976b66709071de6ab2b36b9d8e2_Femal Punk.glb",
-          "name": "Femal Punk.glb"
-        }
-      },
-      {
-        "file": "assets/Femal Formal2.glb",
-        "kind": "model3D",
-        "metadata": "",
-        "name": "Femal Formal.glb",
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Animated Characters/279002c3e2ddd976d51761582e4bfb7ca45838f3d117a7628ae7f37f9f5251f6_Femal Formal.glb",
-          "name": "Femal Formal.glb"
-        }
-      },
-      {
-        "file": "assets/Femal Medieval2.glb",
-        "kind": "model3D",
-        "metadata": "",
-        "name": "Femal Medieval.glb",
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Animated Characters/29c84420006b36f309aa1f863567f6821dde0f838d1e2d74a0548f390855e4da_Femal Medieval.glb",
-          "name": "Femal Medieval.glb"
-        }
-      },
-      {
-        "file": "assets/Femal Suit2.glb",
-        "kind": "model3D",
-        "metadata": "",
-        "name": "Femal Suit.glb",
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Animated Characters/a256fd353714d533ba88eac8851671fd2f3eeefad45c22dbf41391d1538f8f6e_Femal Suit.glb",
-          "name": "Femal Suit.glb"
-        }
-      },
-      {
-        "file": "assets/Spacesuit2.glb",
-        "kind": "model3D",
-        "metadata": "",
-        "name": "Spacesuit.glb",
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Animated Characters/72a7a64570f143ac979ca46f545129c14ea227f8978c85c0d2c40a2a70abe7f1_Spacesuit.glb",
-          "name": "Spacesuit.glb"
-        }
-      },
-      {
-        "file": "assets/Femal SciFi2.glb",
-        "kind": "model3D",
-        "metadata": "",
-        "name": "Femal SciFi.glb",
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Animated Characters/d5733080ae7c2e6e001e282be6333c7960353dd6ba2154871c64e9ab59f223ab_Femal SciFi.glb",
-          "name": "Femal SciFi.glb"
-        }
-      },
-      {
-        "file": "assets/Femal Soldier2.glb",
-        "kind": "model3D",
-        "metadata": "",
-        "name": "Femal Soldier.glb",
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Animated Characters/e99067a08209be5f28d967737a6f7cf5cd53b570e1ece5f84e23ba07e2b1cc26_Femal Soldier.glb",
-          "name": "Femal Soldier.glb"
-        }
-      },
-      {
-        "file": "assets/Femal Worker2.glb",
-        "kind": "model3D",
-        "metadata": "",
-        "name": "Femal Worker.glb",
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Animated Characters/120482cf9e99cb4b28543bedc935e3cc60ae59d2618631d6a39a0806f0689872_Femal Worker.glb",
-          "name": "Femal Worker.glb"
-        }
-      },
-      {
-        "file": "assets/Femal Witch2.glb",
-        "kind": "model3D",
-        "metadata": "",
-        "name": "Femal Witch.glb",
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Animated Characters/bfcac35d635d90e19bbdfd3dd7f51bfb0f8d055f2c44b9a23ebe73d84bc0c196_Femal Witch.glb",
-          "name": "Femal Witch.glb"
-        }
-      },
-      {
-        "file": "assets/Male Adventurer2.glb",
-        "kind": "model3D",
-        "metadata": "",
-        "name": "Male Adventurer.glb",
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Animated Characters/9ad9b25ce345360529960fb85e3c8f3926df3282831991077cf079027dd6e406_Male Adventurer.glb",
-          "name": "Male Adventurer.glb"
-        }
-      },
-      {
-        "file": "assets/Male King2.glb",
-        "kind": "model3D",
-        "metadata": "",
-        "name": "Male King.glb",
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Animated Characters/a183fc0978228ab41d5d7e5681497690a5dc6382eee6d6111e94164faae35550_Male King.glb",
-          "name": "Male King.glb"
-        },
-        "file": "assets/Inventory Slot Empty3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Inventory Slot Empty2.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Retro Pixelart UI/Pixel art/f305fdf036385c51430f108916e26673103cf13a716df6d34e7aabafe2d77b36_Inventory Slot Empty2.png",
-          "name": "Inventory Slot Empty2.png"
-        }
-      },
-      {
-        "file": "assets/Laptop.glb",
-        "kind": "model3D",
-        "metadata": "",
-        "name": "Laptop.glb",
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Furniture/device/c24cb95a076dbe20a69c54eb2cb7f1d9c31f9cc6cf5e58ef9d539c16feffa7d1_Laptop.glb",
-          "name": "Laptop.glb"
-        }
-      },
-      {
-        "file": "assets/jewel2.glb",
-        "kind": "model3D",
-        "metadata": "",
-        "name": "jewel.glb",
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Platformer Kit/props/6e844d22b6b875f8d69792164beeb79c8a25b031a06e5b1527b10b4d1e2b82f1_jewel.glb",
-          "name": "jewel.glb"
-        }
-      },
-      {
-        "file": "assets/Gem Blue.glb",
-        "kind": "model3D",
-        "metadata": "",
-        "name": "Gem Blue.glb",
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Pirate Kit/Collectable/cd777a5c5e3580518b88c2c271a0618abdfbc86d157564c9a24b5f829ce5f4a0_Gem Blue.glb",
-          "name": "Gem Blue.glb"
-        }
+        "name": "background.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -664,10 +291,6 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/game-scene-ws"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/game-scene-3d-art"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,

@@ -18,15 +18,10 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.6672773998330257,
+    "zoomFactor": 0.9934433498259989,
     "windowMask": false
   },
-  "objectsGroups": [
-    {
-      "name": "Items",
-      "objects": []
-    }
-  ],
+  "objectsGroups": [],
   "variables": [
     {
       "name": "ControlKind",
@@ -254,118 +249,16 @@
     },
     {
       "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 82,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Phone2",
-      "persistentUuid": "152a286d-4717-4f31-9522-d22a00ca9599",
-      "width": 72,
-      "x": 501,
-      "y": 301,
-      "zOrder": 20,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 128,
-      "keepRatio": true,
-      "layer": "",
-      "name": "InventorySlot",
-      "persistentUuid": "b2848c31-eb05-48d0-9cb0-527d12592cd2",
-      "width": 128,
-      "x": 457,
-      "y": 590,
-      "zOrder": 21,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 128,
-      "keepRatio": true,
-      "layer": "",
-      "name": "InventorySlot",
-      "persistentUuid": "9e5b896a-0acf-40c9-95bc-10b9d0998e85",
-      "width": 128,
-      "x": 652,
-      "y": 591,
-      "zOrder": 21,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 128,
-      "keepRatio": true,
-      "layer": "",
-      "name": "InventorySlot",
-      "persistentUuid": "4bfe5339-0092-4fbf-bc76-1df238dbd947",
-      "width": 128,
-      "x": 554,
-      "y": 591,
-      "zOrder": 21,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
       "customSize": false,
       "height": 0,
       "keepRatio": true,
       "layer": "",
-      "name": "Laptop",
-      "persistentUuid": "78770970-7745-43e9-835b-4726782b23bf",
+      "name": "NewText",
+      "persistentUuid": "b6b3de2e-64cc-4fef-ae0e-7f56feeb9309",
       "width": 0,
-      "x": 483,
-      "y": 271,
-      "zOrder": 22,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 50,
-      "height": 44.925274199443365,
-      "keepRatio": true,
-      "layer": "",
-      "name": "jewel",
-      "persistentUuid": "56037b24-2a96-49e0-8a26-4991b053c936",
-      "width": 38.906437310527686,
-      "x": 631,
-      "y": 176,
-      "zOrder": 23,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 50,
-      "height": 23.37909086295014,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Gem_Blue",
-      "persistentUuid": "42b4d108-4eaa-454f-b801-7e4605d94916",
-      "width": 16.52132428447003,
-      "x": 768,
-      "y": 260,
-      "zOrder": 24,
+      "x": 602,
+      "y": 387,
+      "zOrder": 16,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -585,7 +478,6 @@
       "assetStoreId": "e71bd69f896d6c7531b48c65ceb5da25071d4fbdeb518aeceecba8d21f34ed8d",
       "name": "Joystick_Movement",
       "type": "SpriteMultitouchJoystick::SpriteMultitouchJoystick",
-      "variant": "",
       "variables": [],
       "effects": [],
       "behaviors": [],
@@ -893,7 +785,6 @@
       "assetStoreId": "",
       "name": "ControlsToggle",
       "type": "SpriteToggleSwitch::SpriteToggleSwitch",
-      "variant": "",
       "variables": [],
       "effects": [],
       "behaviors": [],
@@ -1046,239 +937,6 @@
         "characterSize": 20,
         "color": "0;0;0"
       }
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "2edc83bc43d0c138874979a18b9bb7540e65cb3ae76c540170dd0478073c20e4",
-      "name": "InventorySlot",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.025,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Inventory Slot Empty2.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 5,
-                        "y": 5
-                      },
-                      {
-                        "x": 27,
-                        "y": 5
-                      },
-                      {
-                        "x": 27,
-                        "y": 27
-                      },
-                      {
-                        "x": 5,
-                        "y": 27
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "assetStoreId": "1f11aa8033673d0ee191c5c917507c2417dd367c8726746e4ec22a1743391d16",
-      "name": "Laptop",
-      "type": "Scene3D::Model3DObject",
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "Physics3D",
-          "type": "Physics3D::Physics3DBehavior",
-          "object3D": "Object3D",
-          "bodyType": "Dynamic",
-          "bullet": false,
-          "fixedRotation": false,
-          "shape": "Box",
-          "shapeOrientation": "Z",
-          "shapeDimensionA": 0,
-          "shapeDimensionB": 0,
-          "shapeDimensionC": 0,
-          "shapeOffsetX": 0,
-          "shapeOffsetY": 0,
-          "shapeOffsetZ": 0,
-          "massCenterOffsetX": 0,
-          "massCenterOffsetY": 0,
-          "massCenterOffsetZ": 0,
-          "massOverride": 0,
-          "density": 1,
-          "friction": 0.3,
-          "restitution": 0.1,
-          "linearDamping": 0.1,
-          "angularDamping": 0.1,
-          "gravityScale": 1,
-          "layers": 17,
-          "masks": 17
-        }
-      ],
-      "content": {
-        "centerLocation": "ModelOrigin",
-        "crossfadeDuration": 0.10000000149011612,
-        "depth": 44,
-        "height": 44,
-        "isCastingShadow": true,
-        "isReceivingShadow": true,
-        "keepAspectRatio": true,
-        "materialType": "StandardWithoutMetalness",
-        "modelResourceName": "Laptop.glb",
-        "originLocation": "ModelOrigin",
-        "rotationX": 90,
-        "rotationY": 0,
-        "rotationZ": 0,
-        "width": 44,
-        "animations": []
-      }
-    },
-    {
-      "assetStoreId": "a98445b5b9f17450923835220cf5088f380bc16d92c716675d52b474e746296c",
-      "name": "jewel",
-      "type": "Scene3D::Model3DObject",
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "Physics3D",
-          "type": "Physics3D::Physics3DBehavior",
-          "object3D": "Object3D",
-          "bodyType": "Dynamic",
-          "bullet": false,
-          "fixedRotation": false,
-          "shape": "Box",
-          "shapeOrientation": "Z",
-          "shapeDimensionA": 0,
-          "shapeDimensionB": 0,
-          "shapeDimensionC": 0,
-          "shapeOffsetX": 0,
-          "shapeOffsetY": 0,
-          "shapeOffsetZ": 0,
-          "massCenterOffsetX": 0,
-          "massCenterOffsetY": 0,
-          "massCenterOffsetZ": 0,
-          "massOverride": 0,
-          "density": 1,
-          "friction": 0.3,
-          "restitution": 0.1,
-          "linearDamping": 0.1,
-          "angularDamping": 0.1,
-          "gravityScale": 1,
-          "layers": 17,
-          "masks": 17
-        }
-      ],
-      "content": {
-        "centerLocation": "ModelOrigin",
-        "crossfadeDuration": 0.10000000149011612,
-        "depth": 11,
-        "height": 11,
-        "isCastingShadow": true,
-        "isReceivingShadow": true,
-        "keepAspectRatio": true,
-        "materialType": "StandardWithoutMetalness",
-        "modelResourceName": "jewel.glb",
-        "originLocation": "ModelOrigin",
-        "rotationX": 90,
-        "rotationY": 0,
-        "rotationZ": -90,
-        "width": 11,
-        "animations": []
-      }
-    },
-    {
-      "assetStoreId": "5d23b4b0a291c46f589832d4a80bb3c52dfe4b98107997e8d73838cdc985adaa",
-      "name": "Gem_Blue",
-      "type": "Scene3D::Model3DObject",
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "Physics3D",
-          "type": "Physics3D::Physics3DBehavior",
-          "object3D": "Object3D",
-          "bodyType": "Dynamic",
-          "bullet": false,
-          "fixedRotation": false,
-          "shape": "Box",
-          "shapeOrientation": "Z",
-          "shapeDimensionA": 0,
-          "shapeDimensionB": 0,
-          "shapeDimensionC": 0,
-          "shapeOffsetX": 0,
-          "shapeOffsetY": 0,
-          "shapeOffsetZ": 0,
-          "massCenterOffsetX": 0,
-          "massCenterOffsetY": 0,
-          "massCenterOffsetZ": 0,
-          "massOverride": 0,
-          "density": 1,
-          "friction": 0.3,
-          "restitution": 0.1,
-          "linearDamping": 0.1,
-          "angularDamping": 0.1,
-          "gravityScale": 1,
-          "layers": 17,
-          "masks": 17
-        }
-      ],
-      "content": {
-        "centerLocation": "ModelOrigin",
-        "crossfadeDuration": 0.10000000149011612,
-        "depth": 24,
-        "height": 24,
-        "isCastingShadow": true,
-        "isReceivingShadow": true,
-        "keepAspectRatio": true,
-        "materialType": "StandardWithoutMetalness",
-        "modelResourceName": "Gem Blue.glb",
-        "originLocation": "ModelOrigin",
-        "rotationX": 90,
-        "rotationY": 0,
-        "rotationZ": 90,
-        "width": 24,
-        "animations": []
-      }
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "NewSprite",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": []
     }
   ],
   "objectsFolderStructure": {
@@ -1315,21 +973,6 @@
       },
       {
         "objectName": "NewText"
-      },
-      {
-        "objectName": "InventorySlot"
-      },
-      {
-        "objectName": "NewSprite"
-      },
-      {
-        "objectName": "Laptop"
-      },
-      {
-        "objectName": "jewel"
-      },
-      {
-        "objectName": "Gem_Blue"
       }
     ]
   },
@@ -1767,74 +1410,6 @@
         }
       ],
       "parameters": []
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "DepartScene"
-          },
-          "parameters": [
-            ""
-          ]
-        }
-      ],
-      "actions": []
-    },
-    {
-      "type": "BuiltinCommonInstructions::ForEach",
-      "object": "InventorySlot",
-      "conditions": [],
-      "actions": [
-        {
-          "type": {
-            "value": "SetStringVariable"
-          },
-          "parameters": [
-            "Inventory[InventorySlot.SlotNumber].Name",
-            "=",
-            "\"Empty\""
-          ]
-        },
-        {
-          "type": {
-            "value": "SetNumberVariable"
-          },
-          "parameters": [
-            "Inventory[InventorySlot.SlotNumber].Quantity",
-            "=",
-            "0"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "Physics3D::Collision"
-          },
-          "parameters": [
-            "Player",
-            "Physics3D",
-            "Items",
-            "Physics3D",
-            ""
-          ]
-        }
-      ],
-      "actions": [],
-      "events": [
-        {
-          "type": "BuiltinCommonInstructions::Link",
-          "include": {
-            "includeConfig": 0
-          },
-          "target": "Add Item"
-        }
-      ]
     }
   ],
   "layers": [

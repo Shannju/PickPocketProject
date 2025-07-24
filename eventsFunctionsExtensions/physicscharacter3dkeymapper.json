@@ -638,6 +638,8 @@
           "value": "",
           "type": "Behavior",
           "label": "3D physics character",
+          "description": "",
+          "group": "",
           "extraInformation": [
             "Physics3D::PhysicsCharacter3D"
           ],
@@ -647,30 +649,45 @@
           "value": "Space",
           "type": "KeyboardKey",
           "label": "Jump key",
+          "description": "",
+          "group": "",
+          "extraInformation": [],
           "name": "Jump"
         },
         {
           "value": "w",
           "type": "KeyboardKey",
           "label": "Up key",
+          "description": "",
+          "group": "",
+          "extraInformation": [],
           "name": "Up"
         },
         {
           "value": "a",
           "type": "KeyboardKey",
           "label": "Left key",
+          "description": "",
+          "group": "",
+          "extraInformation": [],
           "name": "Left"
         },
         {
           "value": "s",
           "type": "KeyboardKey",
           "label": "Down key",
+          "description": "",
+          "group": "",
+          "extraInformation": [],
           "name": "Down"
         },
         {
           "value": "d",
           "type": "KeyboardKey",
           "label": "Right key",
+          "description": "",
+          "group": "",
+          "extraInformation": [],
           "name": "Right"
         },
         {
@@ -678,6 +695,9 @@
           "type": "Number",
           "unit": "DegreeAngle",
           "label": "",
+          "description": "",
+          "group": "",
+          "extraInformation": [],
           "hidden": true,
           "name": "CameraAngle"
         },
@@ -685,6 +705,9 @@
           "value": "",
           "type": "Boolean",
           "label": "Camera is locked for the frame",
+          "description": "",
+          "group": "",
+          "extraInformation": [],
           "hidden": true,
           "name": "LockedCameraAngle"
         }
@@ -850,6 +873,8 @@
           "value": "",
           "type": "Behavior",
           "label": "3D physics character",
+          "description": "",
+          "group": "",
           "extraInformation": [
             "Physics3D::PhysicsCharacter3D"
           ],
@@ -859,30 +884,45 @@
           "value": "Space",
           "type": "KeyboardKey",
           "label": "Jump key",
+          "description": "",
+          "group": "",
+          "extraInformation": [],
           "name": "Jump"
         },
         {
           "value": "w",
           "type": "KeyboardKey",
           "label": "Up key",
+          "description": "",
+          "group": "",
+          "extraInformation": [],
           "name": "Up"
         },
         {
           "value": "a",
           "type": "KeyboardKey",
           "label": "Left key",
+          "description": "",
+          "group": "",
+          "extraInformation": [],
           "name": "Left"
         },
         {
           "value": "s",
           "type": "KeyboardKey",
           "label": "Down key",
+          "description": "",
+          "group": "",
+          "extraInformation": [],
           "name": "Down"
         },
         {
           "value": "d",
           "type": "KeyboardKey",
           "label": "Right key",
+          "description": "",
+          "group": "",
+          "extraInformation": [],
           "name": "Right"
         }
       ],

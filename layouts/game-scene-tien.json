@@ -610,7 +610,6 @@
       "assetStoreId": "e71bd69f896d6c7531b48c65ceb5da25071d4fbdeb518aeceecba8d21f34ed8d",
       "name": "Joystick_Movement",
       "type": "SpriteMultitouchJoystick::SpriteMultitouchJoystick",
-      "variant": "",
       "variables": [],
       "effects": [],
       "behaviors": [],
@@ -918,7 +917,6 @@
       "assetStoreId": "",
       "name": "ControlsToggle",
       "type": "SpriteToggleSwitch::SpriteToggleSwitch",
-      "variant": "",
       "variables": [],
       "effects": [],
       "behaviors": [],
@@ -1375,8 +1373,6 @@
         "crossfadeDuration": 0.10000000149011612,
         "depth": 151,
         "height": 151,
-        "isCastingShadow": false,
-        "isReceivingShadow": false,
         "keepAspectRatio": true,
         "materialType": "StandardWithoutMetalness",
         "modelResourceName": "Female Casual.glb",
@@ -1472,8 +1468,6 @@
         "crossfadeDuration": 0.10000000149011612,
         "depth": 121,
         "height": 121,
-        "isCastingShadow": false,
-        "isReceivingShadow": false,
         "keepAspectRatio": true,
         "materialType": "StandardWithoutMetalness",
         "modelResourceName": "Characters Shaun.glb",
@@ -1598,8 +1592,6 @@
         "crossfadeDuration": 0.10000000149011612,
         "depth": 79,
         "height": 79,
-        "isCastingShadow": false,
-        "isReceivingShadow": false,
         "keepAspectRatio": true,
         "materialType": "StandardWithoutMetalness",
         "modelResourceName": "Orc.glb",
@@ -1769,50 +1761,62 @@
               ]
             }
           ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": [
-        {
-          "type": {
-            "value": "FirstPersonCamera::LookFromObjectEyes"
-          },
-          "parameters": [
-            "",
-            "Player",
-            "",
-            ""
-          ]
         },
         {
-          "type": {
-            "value": "Scene3D::SetCameraZ"
-          },
-          "parameters": [
-            "",
-            "+",
-            "64",
-            "",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "Cache"
-          },
-          "parameters": [
-            "TextSuccess"
-          ]
-        },
-        {
-          "type": {
-            "value": "Cache"
-          },
-          "parameters": [
-            "TextFailure"
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "FirstPersonCamera::LookFromObjectEyes"
+              },
+              "parameters": [
+                "",
+                "Player",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Scene3D::SetCameraZ"
+              },
+              "parameters": [
+                "",
+                "+",
+                "64",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "TextSuccess"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "TextFailure"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlayMusic"
+              },
+              "parameters": [
+                "",
+                "background.mp3",
+                "yes",
+                "",
+                "1"
+              ]
+            }
           ]
         }
       ]
@@ -2208,6 +2212,18 @@
                 "TextSuccess",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "11l-victory_sound_with_t-1749487409696-357609.mp3",
+                "yes",
+                "50",
+                "2"
+              ]
             }
           ]
         },
@@ -2246,6 +2262,18 @@
               "parameters": [
                 "TextFailure",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "failure-4-with-gong-69906.mp3",
+                "",
+                "50",
+                "2"
               ]
             }
           ]

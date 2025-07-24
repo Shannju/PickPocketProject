@@ -336,8 +336,6 @@
           "value": "",
           "type": "Behavior",
           "label": "Animatable capability",
-          "description": "",
-          "group": "",
           "extraInformation": [
             "AnimatableCapability::AnimatableBehavior"
           ],
@@ -347,8 +345,6 @@
           "value": "",
           "type": "Behavior",
           "label": "Flippable capability",
-          "description": "",
-          "group": "",
           "extraInformation": [
             "FlippableCapability::FlippableBehavior"
           ],
@@ -359,9 +355,6 @@
           "type": "Number",
           "unit": "PixelSpeed",
           "label": "Speed on X axis, in pixels per second",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "SpeedX"
         },
         {
@@ -369,18 +362,12 @@
           "type": "Number",
           "unit": "Pixel",
           "label": "Distance traveled on X axis, in pixels",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "DistanceX"
         },
         {
           "value": "0",
           "type": "Number",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "InitialX"
         }

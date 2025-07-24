@@ -610,6 +610,7 @@
       "assetStoreId": "e71bd69f896d6c7531b48c65ceb5da25071d4fbdeb518aeceecba8d21f34ed8d",
       "name": "Joystick_Movement",
       "type": "SpriteMultitouchJoystick::SpriteMultitouchJoystick",
+      "variant": "",
       "variables": [],
       "effects": [],
       "behaviors": [],
@@ -917,6 +918,7 @@
       "assetStoreId": "",
       "name": "ControlsToggle",
       "type": "SpriteToggleSwitch::SpriteToggleSwitch",
+      "variant": "",
       "variables": [],
       "effects": [],
       "behaviors": [],
@@ -1373,6 +1375,8 @@
         "crossfadeDuration": 0.10000000149011612,
         "depth": 151,
         "height": 151,
+        "isCastingShadow": false,
+        "isReceivingShadow": false,
         "keepAspectRatio": true,
         "materialType": "StandardWithoutMetalness",
         "modelResourceName": "Female Casual.glb",
@@ -1468,6 +1472,8 @@
         "crossfadeDuration": 0.10000000149011612,
         "depth": 121,
         "height": 121,
+        "isCastingShadow": false,
+        "isReceivingShadow": false,
         "keepAspectRatio": true,
         "materialType": "StandardWithoutMetalness",
         "modelResourceName": "Characters Shaun.glb",
@@ -1592,6 +1598,8 @@
         "crossfadeDuration": 0.10000000149011612,
         "depth": 79,
         "height": 79,
+        "isCastingShadow": false,
+        "isReceivingShadow": false,
         "keepAspectRatio": true,
         "materialType": "StandardWithoutMetalness",
         "modelResourceName": "Orc.glb",
@@ -2201,6 +2209,12 @@
                 "MouseCursor",
                 "TimedBackAndForthMirroredMovement"
               ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
             }
           ],
           "actions": [
@@ -2220,7 +2234,7 @@
               "parameters": [
                 "",
                 "11l-victory_sound_with_t-1749487409696-357609.mp3",
-                "yes",
+                "no",
                 "50",
                 "2"
               ]
@@ -2252,6 +2266,12 @@
                 "MouseCursor",
                 "TimedBackAndForthMirroredMovement"
               ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
             }
           ],
           "actions": [

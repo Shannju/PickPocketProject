@@ -245,9 +245,6 @@
           "type": "Number",
           "unit": "PixelSpeed",
           "label": "Speed on X axis",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "SpeedX"
         },
         {
@@ -255,9 +252,6 @@
           "type": "Number",
           "unit": "PixelSpeed",
           "label": "Speed on Y axis",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "SpeedY"
         }
       ],
@@ -395,9 +389,6 @@
           "type": "Number",
           "unit": "PixelSpeed",
           "label": "Speed",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "Speed"
         }
       ],

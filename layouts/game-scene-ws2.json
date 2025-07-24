@@ -1,8 +1,8 @@
 {
   "b": 255,
   "disableInputWhenNotFocused": true,
-  "mangledName": "Game_32Scene_32ws",
-  "name": "Game Scene ws",
+  "mangledName": "Game_32Scene_32ws2",
+  "name": "Game Scene ws2",
   "r": 255,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
@@ -18,13 +18,20 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.6672773998330257,
+    "zoomFactor": 1.7458023987468627,
     "windowMask": false
   },
   "objectsGroups": [
     {
       "name": "Items",
-      "objects": []
+      "objects": [
+        {
+          "name": "jewel"
+        },
+        {
+          "name": "lock"
+        }
+      ]
     }
   ],
   "variables": [
@@ -254,6 +261,125 @@
     },
     {
       "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewText",
+      "persistentUuid": "b6b3de2e-64cc-4fef-ae0e-7f56feeb9309",
+      "width": 0,
+      "x": 602,
+      "y": 387,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 81,
+      "keepRatio": true,
+      "layer": "MobileControls",
+      "name": "InventorySlot",
+      "persistentUuid": "8b24bdf3-2bb9-49ec-af7a-70c4fd7da40c",
+      "width": 84,
+      "x": 523,
+      "y": 627,
+      "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "SlotNumber",
+          "type": "number",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 81,
+      "keepRatio": true,
+      "layer": "MobileControls",
+      "name": "InventorySlot",
+      "persistentUuid": "48a63dc4-af1c-47ad-80ab-7e33a6c844e4",
+      "width": 84,
+      "x": 586,
+      "y": 627,
+      "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "SlotNumber",
+          "type": "number",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 81,
+      "keepRatio": true,
+      "layer": "MobileControls",
+      "name": "InventorySlot",
+      "persistentUuid": "09fa42b2-9e2a-4180-9966-a8497d6725a5",
+      "width": 84,
+      "x": 649,
+      "y": 627,
+      "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "SlotNumber",
+          "type": "number",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 64,
+      "height": 20,
+      "keepRatio": true,
+      "layer": "MobileControls",
+      "name": "HealthBarHorizontal2",
+      "persistentUuid": "348136ec-feb9-429c-ba19-44c448eacd46",
+      "width": 229,
+      "x": 1037,
+      "y": 10,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 64,
+      "height": 20,
+      "keepRatio": true,
+      "layer": "MobileControls",
+      "name": "ManaBarHorizontal2",
+      "persistentUuid": "a515be41-6fab-46d6-ab50-e2ce72afb283",
+      "width": 180,
+      "x": 1086,
+      "y": 38,
+      "zOrder": 19,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
       "customSize": true,
       "depth": 1,
       "height": 82,
@@ -272,83 +398,16 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 0,
-      "height": 128,
-      "keepRatio": true,
-      "layer": "",
-      "name": "InventorySlot",
-      "persistentUuid": "b2848c31-eb05-48d0-9cb0-527d12592cd2",
-      "width": 128,
-      "x": 457,
-      "y": 590,
-      "zOrder": 21,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 128,
-      "keepRatio": true,
-      "layer": "",
-      "name": "InventorySlot",
-      "persistentUuid": "9e5b896a-0acf-40c9-95bc-10b9d0998e85",
-      "width": 128,
-      "x": 652,
-      "y": 591,
-      "zOrder": 21,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 128,
-      "keepRatio": true,
-      "layer": "",
-      "name": "InventorySlot",
-      "persistentUuid": "4bfe5339-0092-4fbf-bc76-1df238dbd947",
-      "width": 128,
-      "x": 554,
-      "y": 591,
-      "zOrder": 21,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Laptop",
-      "persistentUuid": "78770970-7745-43e9-835b-4726782b23bf",
-      "width": 0,
-      "x": 483,
-      "y": 271,
-      "zOrder": 22,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
       "depth": 50,
-      "height": 44.925274199443365,
+      "height": 44.92527419944335,
       "keepRatio": true,
       "layer": "",
       "name": "jewel",
-      "persistentUuid": "56037b24-2a96-49e0-8a26-4991b053c936",
-      "width": 38.906437310527686,
-      "x": 631,
-      "y": 176,
-      "zOrder": 23,
+      "persistentUuid": "d2b184a6-a266-4d0c-a37c-0f05c896a018",
+      "width": 38.90643731052768,
+      "x": 518,
+      "y": 333,
+      "zOrder": 21,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -356,16 +415,16 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 50,
-      "height": 23.37909086295014,
+      "depth": 30,
+      "height": 21.927966101693684,
       "keepRatio": true,
       "layer": "",
-      "name": "Gem_Blue",
-      "persistentUuid": "42b4d108-4eaa-454f-b801-7e4605d94916",
-      "width": 16.52132428447003,
-      "x": 768,
-      "y": 260,
-      "zOrder": 24,
+      "name": "lock",
+      "persistentUuid": "c30adf21-cd08-4b07-89bb-9982114f8f2d",
+      "width": 13.855932756729041,
+      "x": 494,
+      "y": 216,
+      "zOrder": 22,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1053,7 +1112,13 @@
       "name": "InventorySlot",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "name": "SlotNumber",
+          "type": "number",
+          "value": 2
+        }
+      ],
       "effects": [],
       "behaviors": [],
       "animations": [
@@ -1108,64 +1173,54 @@
       ]
     },
     {
-      "assetStoreId": "1f11aa8033673d0ee191c5c917507c2417dd367c8726746e4ec22a1743391d16",
-      "name": "Laptop",
-      "type": "Scene3D::Model3DObject",
+      "assetStoreId": "d269b94b938073a3f2aa65ae9137fcef1e1f4c02a6922d81c0cacb0bb3079ea4",
+      "name": "HealthBarHorizontal2",
+      "type": "PanelSpriteContinuousBar::PanelSpriteContinuousBar",
+      "variant": "Health Bar Horizontal 2",
       "variables": [],
       "effects": [],
-      "behaviors": [
-        {
-          "name": "Physics3D",
-          "type": "Physics3D::Physics3DBehavior",
-          "object3D": "Object3D",
-          "bodyType": "Dynamic",
-          "bullet": false,
-          "fixedRotation": false,
-          "shape": "Box",
-          "shapeOrientation": "Z",
-          "shapeDimensionA": 0,
-          "shapeDimensionB": 0,
-          "shapeDimensionC": 0,
-          "shapeOffsetX": 0,
-          "shapeOffsetY": 0,
-          "shapeOffsetZ": 0,
-          "massCenterOffsetX": 0,
-          "massCenterOffsetY": 0,
-          "massCenterOffsetZ": 0,
-          "massOverride": 0,
-          "density": 1,
-          "friction": 0.3,
-          "restitution": 0.1,
-          "linearDamping": 0.1,
-          "angularDamping": 0.1,
-          "gravityScale": 1,
-          "layers": 17,
-          "masks": 17
-        }
-      ],
+      "behaviors": [],
       "content": {
-        "centerLocation": "ModelOrigin",
-        "crossfadeDuration": 0.10000000149011612,
-        "depth": 44,
-        "height": 44,
-        "isCastingShadow": true,
-        "isReceivingShadow": true,
-        "keepAspectRatio": true,
-        "materialType": "StandardWithoutMetalness",
-        "modelResourceName": "Laptop.glb",
-        "originLocation": "ModelOrigin",
-        "rotationX": 90,
-        "rotationY": 0,
-        "rotationZ": 0,
-        "width": 44,
-        "animations": []
+        "PreviousHighValueDuration": 1,
+        "InitialValue": 4,
+        "MaxValue": 8,
+        "BarTopPadding": 0,
+        "BarLeftPadding": 0,
+        "BarBottomPadding": 0,
+        "BarRightPadding": 0,
+        "ShowLabel": false
+      }
+    },
+    {
+      "assetStoreId": "df9990ba7361f6d9162b0fa1ab43b57cc9903e4351578a122d0bf073fb731562",
+      "name": "ManaBarHorizontal2",
+      "type": "PanelSpriteContinuousBar::PanelSpriteContinuousBar",
+      "variant": "Mana Bar Horizontal 2",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "PreviousHighValueDuration": 1,
+        "InitialValue": 4,
+        "MaxValue": 8,
+        "BarTopPadding": 0,
+        "BarLeftPadding": 0,
+        "BarBottomPadding": 0,
+        "BarRightPadding": 0,
+        "ShowLabel": false
       }
     },
     {
       "assetStoreId": "a98445b5b9f17450923835220cf5088f380bc16d92c716675d52b474e746296c",
       "name": "jewel",
       "type": "Scene3D::Model3DObject",
-      "variables": [],
+      "variables": [
+        {
+          "name": "Quantity",
+          "type": "number",
+          "value": 1
+        }
+      ],
       "effects": [],
       "behaviors": [
         {
@@ -1216,10 +1271,16 @@
       }
     },
     {
-      "assetStoreId": "5d23b4b0a291c46f589832d4a80bb3c52dfe4b98107997e8d73838cdc985adaa",
-      "name": "Gem_Blue",
+      "assetStoreId": "664b97411eea32da5b3d969d5bddcf5ac13f92732ca82250095e64bcbc6ad0e6",
+      "name": "lock",
       "type": "Scene3D::Model3DObject",
-      "variables": [],
+      "variables": [
+        {
+          "name": "Quantity",
+          "type": "number",
+          "value": 1
+        }
+      ],
       "effects": [],
       "behaviors": [
         {
@@ -1254,31 +1315,20 @@
       "content": {
         "centerLocation": "ModelOrigin",
         "crossfadeDuration": 0.10000000149011612,
-        "depth": 24,
-        "height": 24,
+        "depth": 12,
+        "height": 12,
         "isCastingShadow": true,
         "isReceivingShadow": true,
         "keepAspectRatio": true,
         "materialType": "StandardWithoutMetalness",
-        "modelResourceName": "Gem Blue.glb",
+        "modelResourceName": "lock.glb",
         "originLocation": "ModelOrigin",
         "rotationX": 90,
         "rotationY": 0,
-        "rotationZ": 90,
-        "width": 24,
+        "rotationZ": -90,
+        "width": 12,
         "animations": []
       }
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "NewSprite",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": []
     }
   ],
   "objectsFolderStructure": {
@@ -1320,16 +1370,16 @@
         "objectName": "InventorySlot"
       },
       {
-        "objectName": "NewSprite"
+        "objectName": "HealthBarHorizontal2"
       },
       {
-        "objectName": "Laptop"
+        "objectName": "ManaBarHorizontal2"
       },
       {
         "objectName": "jewel"
       },
       {
-        "objectName": "Gem_Blue"
+        "objectName": "lock"
       }
     ]
   },

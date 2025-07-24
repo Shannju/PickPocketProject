@@ -606,6 +606,49 @@
         "origin": {
           "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Animated Characters/a183fc0978228ab41d5d7e5681497690a5dc6382eee6d6111e94164faae35550_Male King.glb",
           "name": "Male King.glb"
+        },
+        "file": "assets/Inventory Slot Empty3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Inventory Slot Empty2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Retro Pixelart UI/Pixel art/f305fdf036385c51430f108916e26673103cf13a716df6d34e7aabafe2d77b36_Inventory Slot Empty2.png",
+          "name": "Inventory Slot Empty2.png"
+        }
+      },
+      {
+        "file": "assets/Laptop.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Laptop.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Furniture/device/c24cb95a076dbe20a69c54eb2cb7f1d9c31f9cc6cf5e58ef9d539c16feffa7d1_Laptop.glb",
+          "name": "Laptop.glb"
+        }
+      },
+      {
+        "file": "assets/jewel2.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "jewel.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Platformer Kit/props/6e844d22b6b875f8d69792164beeb79c8a25b031a06e5b1527b10b4d1e2b82f1_jewel.glb",
+          "name": "jewel.glb"
+        }
+      },
+      {
+        "file": "assets/Gem Blue.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Gem Blue.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Pirate Kit/Collectable/cd777a5c5e3580518b88c2c271a0618abdfbc86d157564c9a24b5f829ce5f4a0_Gem Blue.glb",
+          "name": "Gem Blue.glb"
         }
       }
     ],

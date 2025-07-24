@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.8700232859857671,
+    "zoomFactor": 0.8416428125373508,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -36,7 +36,7 @@
       "depth": 30,
       "height": 1000,
       "keepRatio": true,
-      "layer": "",
+      "layer": "MobileControls",
       "locked": true,
       "name": "Ground",
       "persistentUuid": "6a14e5ab-5c31-4692-8cd5-c50937fd60c6",
@@ -275,6 +275,40 @@
       "x": 597,
       "y": 359,
       "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 64,
+      "height": 20,
+      "keepRatio": true,
+      "layer": "MobileControls",
+      "name": "HealthBarHorizontal2",
+      "persistentUuid": "93905253-8762-4dc8-898c-220a2be9507a",
+      "width": 191,
+      "x": 1102,
+      "y": 274,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 64,
+      "height": 20,
+      "keepRatio": true,
+      "layer": "MobileControls",
+      "name": "ManaBarHorizontal2",
+      "persistentUuid": "e125f503-3027-4996-8016-64c12eb8aa38",
+      "width": 161,
+      "x": 1132,
+      "y": 300,
+      "zOrder": 19,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -913,6 +947,22 @@
           ]
         }
       }
+    },
+    {
+      "assetStoreId": "d269b94b938073a3f2aa65ae9137fcef1e1f4c02a6922d81c0cacb0bb3079ea4",
+      "name": "HealthBarHorizontal2",
+      "type": "PanelSpriteContinuousBar::PanelSpriteContinuousBar",
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "df9990ba7361f6d9162b0fa1ab43b57cc9903e4351578a122d0bf073fb731562",
+      "name": "ManaBarHorizontal2",
+      "type": "PanelSpriteContinuousBar::PanelSpriteContinuousBar",
+      "variables": [],
+      "effects": [],
+      "behaviors": []
     }
   ],
   "objectsFolderStructure": {
@@ -926,6 +976,12 @@
       },
       {
         "objectName": "Obstacle"
+      },
+      {
+        "objectName": "ManaBarHorizontal2"
+      },
+      {
+        "objectName": "HealthBarHorizontal2"
       },
       {
         "objectName": "Ground"

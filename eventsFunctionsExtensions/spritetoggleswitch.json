@@ -3,7 +3,6 @@
   "category": "User interface",
   "extensionNamespace": "",
   "fullName": "Toggle switch",
-  "gdevelopVersion": ">=5.5.230",
   "helpPath": "/objects/toggle-switch",
   "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAyMy4wLjMsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iSWNvbnMiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgMzIgMzIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDMyIDMyOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+DQo8c3R5bGUgdHlwZT0idGV4dC9jc3MiPg0KCS5zdDB7ZmlsbDpub25lO3N0cm9rZTojMDAwMDAwO3N0cm9rZS13aWR0aDoyO3N0cm9rZS1saW5lY2FwOnJvdW5kO3N0cm9rZS1saW5lam9pbjpyb3VuZDtzdHJva2UtbWl0ZXJsaW1pdDoxMDt9DQo8L3N0eWxlPg0KPHBhdGggY2xhc3M9InN0MCIgZD0iTTIzLDIzSDljLTMuOSwwLTctMy4xLTctN3YwYzAtMy45LDMuMS03LDctN2gxNGMzLjksMCw3LDMuMSw3LDd2MEMzMCwxOS45LDI2LjksMjMsMjMsMjN6Ii8+DQo8Y2lyY2xlIGNsYXNzPSJzdDAiIGN4PSI5IiBjeT0iMTYiIHI9IjQiLz4NCjwvc3ZnPg0K",
   "name": "SpriteToggleSwitch",
@@ -29,12 +28,6 @@
   "authorIds": [
     "IWykYNRvhCZBN3vEgKEbBPOR3Oc2",
     "gqDaZjCfevOOxBYkK6zlhtZnXCg1"
-  ],
-  "changelog": [
-    {
-      "version": "2.0.0",
-      "breaking": "- Toggle switches now use \"variants\", allowing easy swapping of their visual aspect. You will have to make some adjustments to existing toggle switches in your project. Follow this [migration documentation](https://wiki.gdevelop.io/gdevelop5/objects/custom-objects-prefab-template/migrate-to-variants/) to do these changes."
-    }
   ],
   "dependencies": [],
   "globalVariables": [],
@@ -684,6 +677,8 @@
           "value": "",
           "type": "Behavior",
           "label": "Button finite state machine",
+          "description": "",
+          "group": "",
           "extraInformation": [
             "SpriteToggleSwitch::ButtonFSM"
           ],
@@ -693,12 +688,18 @@
           "value": "false",
           "type": "Boolean",
           "label": "Is checked",
+          "description": "",
+          "group": "",
+          "extraInformation": [],
           "name": "IsChecked"
         },
         {
           "value": "",
           "type": "Boolean",
           "label": "",
+          "description": "",
+          "group": "",
+          "extraInformation": [],
           "hidden": true,
           "name": "PreviousIsChecked"
         },
@@ -706,6 +707,9 @@
           "value": "",
           "type": "Boolean",
           "label": "",
+          "description": "",
+          "group": "",
+          "extraInformation": [],
           "hidden": true,
           "name": "WasChecked"
         }
@@ -1798,6 +1802,8 @@
           "type": "Boolean",
           "label": "",
           "description": "Should check hovering",
+          "group": "",
+          "extraInformation": [],
           "hidden": true,
           "name": "ShouldCheckHovering"
         },
@@ -1805,6 +1811,8 @@
           "value": "Idle",
           "type": "Choice",
           "label": "State",
+          "description": "",
+          "group": "",
           "extraInformation": [
             "Idle",
             "Hovered",
@@ -1819,6 +1827,9 @@
           "value": "0",
           "type": "Number",
           "label": "Touch id",
+          "description": "",
+          "group": "",
+          "extraInformation": [],
           "hidden": true,
           "name": "TouchId"
         },
@@ -1826,6 +1837,9 @@
           "value": "",
           "type": "Boolean",
           "label": "Touch is inside",
+          "description": "",
+          "group": "",
+          "extraInformation": [],
           "hidden": true,
           "name": "TouchIsInside"
         },
@@ -1833,6 +1847,9 @@
           "value": "",
           "type": "Boolean",
           "label": "Mouse is inside",
+          "description": "",
+          "group": "",
+          "extraInformation": [],
           "hidden": true,
           "name": "MouseIsInside"
         },
@@ -1840,6 +1857,9 @@
           "value": "",
           "type": "Number",
           "label": "",
+          "description": "",
+          "group": "",
+          "extraInformation": [],
           "hidden": true,
           "name": "Index"
         }
@@ -1860,117 +1880,6 @@
       "fullName": "Toggle switch",
       "isUsingLegacyInstancesRenderer": false,
       "name": "SpriteToggleSwitch",
-      "objects": [
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "State",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [
-            {
-              "name": "ButtonFSM",
-              "type": "SpriteToggleSwitch::ButtonFSM",
-              "ShouldCheckHovering": true,
-              "State": "Idle",
-              "TouchId": 0,
-              "TouchIsInside": false,
-              "MouseIsInside": false,
-              "Index": 0
-            },
-            {
-              "name": "SwitchFSM",
-              "type": "SpriteToggleSwitch::SwitchFSM",
-              "ButtonFSM": "ButtonFSM",
-              "IsChecked": false,
-              "WasChecked": false
-            }
-          ],
-          "animations": [
-            {
-              "name": "Unchecked",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": []
-                }
-              ]
-            },
-            {
-              "name": "Checked",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": []
-                }
-              ]
-            }
-          ]
-        }
-      ],
-      "objectsFolderStructure": {
-        "folderName": "__ROOT",
-        "children": [
-          {
-            "objectName": "State"
-          }
-        ]
-      },
-      "objectsGroups": [],
-      "layers": [
-        {
-          "ambientLightColorB": 200,
-          "ambientLightColorG": 200,
-          "ambientLightColorR": 200,
-          "camera3DFarPlaneDistance": 10000,
-          "camera3DFieldOfView": 45,
-          "camera3DNearPlaneDistance": 3,
-          "cameraType": "",
-          "followBaseLayerCamera": false,
-          "isLightingLayer": false,
-          "isLocked": false,
-          "name": "",
-          "renderingType": "",
-          "visibility": true,
-          "cameras": [
-            {
-              "defaultSize": true,
-              "defaultViewport": true,
-              "height": 0,
-              "viewportBottom": 1,
-              "viewportLeft": 0,
-              "viewportRight": 1,
-              "viewportTop": 0,
-              "width": 0
-            }
-          ],
-          "effects": []
-        }
-      ],
-      "instances": [
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 64,
-          "layer": "",
-          "name": "State",
-          "persistentUuid": "bda60bb1-c312-4710-baf7-ec7a3887c076",
-          "width": 64,
-          "x": 0,
-          "y": 0,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        }
-      ],
       "eventsFunctions": [
         {
           "fullName": "",
@@ -3002,6 +2911,9 @@
           "value": "true",
           "type": "Boolean",
           "label": "Is checked",
+          "description": "",
+          "group": "",
+          "extraInformation": [],
           "name": "IsChecked"
         },
         {
@@ -3009,204 +2921,121 @@
           "type": "Boolean",
           "label": "",
           "description": "It's used to detect a change at hot reload.",
+          "group": "",
+          "extraInformation": [],
           "hidden": true,
           "name": "PreviousIsChecked"
         }
       ],
-      "variants": [
+      "objects": [
         {
-          "areaMaxX": 202,
-          "areaMaxY": 64,
-          "areaMaxZ": 64,
-          "areaMinX": 0,
-          "areaMinY": 0,
-          "areaMinZ": 0,
-          "name": "Controls toggle",
-          "objects": [
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "State",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
             {
-              "adaptCollisionMaskAutomatically": true,
-              "assetStoreId": "",
-              "name": "State",
-              "type": "Sprite",
-              "updateIfNotVisible": false,
-              "variables": [],
-              "effects": [],
-              "behaviors": [
+              "name": "ButtonFSM",
+              "type": "SpriteToggleSwitch::ButtonFSM",
+              "ShouldCheckHovering": true,
+              "State": "Idle",
+              "TouchId": 0,
+              "TouchIsInside": false,
+              "MouseIsInside": false,
+              "Index": 0
+            },
+            {
+              "name": "SwitchFSM",
+              "type": "SpriteToggleSwitch::SwitchFSM",
+              "ButtonFSM": "ButtonFSM",
+              "IsChecked": false,
+              "WasChecked": false
+            }
+          ],
+          "animations": [
+            {
+              "name": "Unchecked",
+              "useMultipleDirections": false,
+              "directions": [
                 {
-                  "name": "ButtonFSM",
-                  "type": "SpriteToggleSwitch::ButtonFSM",
-                  "ShouldCheckHovering": true,
-                  "State": "Idle",
-                  "TouchId": 0,
-                  "TouchIsInside": false,
-                  "MouseIsInside": false,
-                  "Index": 0
-                },
-                {
-                  "name": "SwitchFSM",
-                  "type": "SpriteToggleSwitch::SwitchFSM",
-                  "ButtonFSM": "ButtonFSM",
-                  "IsChecked": false,
-                  "WasChecked": false
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": []
                 }
-              ],
-              "animations": [
+              ]
+            },
+            {
+              "name": "Checked",
+              "useMultipleDirections": false,
+              "directions": [
                 {
-                  "name": "Unchecked",
-                  "useMultipleDirections": false,
-                  "directions": [
-                    {
-                      "looping": false,
-                      "timeBetweenFrames": 0.08,
-                      "sprites": [
-                        {
-                          "hasCustomCollisionMask": true,
-                          "image": "StarterToggle_Keyboard.png",
-                          "points": [],
-                          "originPoint": {
-                            "name": "origine",
-                            "x": 0,
-                            "y": 0
-                          },
-                          "centerPoint": {
-                            "automatic": true,
-                            "name": "centre",
-                            "x": 0,
-                            "y": 0
-                          },
-                          "customCollisionMask": [
-                            [
-                              {
-                                "x": 2,
-                                "y": 1
-                              },
-                              {
-                                "x": 201,
-                                "y": 1
-                              },
-                              {
-                                "x": 201,
-                                "y": 63
-                              },
-                              {
-                                "x": 2,
-                                "y": 63
-                              }
-                            ]
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "name": "Checked",
-                  "useMultipleDirections": false,
-                  "directions": [
-                    {
-                      "looping": false,
-                      "timeBetweenFrames": 0.08,
-                      "sprites": [
-                        {
-                          "hasCustomCollisionMask": true,
-                          "image": "StarterToggle_Touch.png",
-                          "points": [],
-                          "originPoint": {
-                            "name": "origine",
-                            "x": 0,
-                            "y": 0
-                          },
-                          "centerPoint": {
-                            "automatic": true,
-                            "name": "centre",
-                            "x": 0,
-                            "y": 0
-                          },
-                          "customCollisionMask": [
-                            [
-                              {
-                                "x": 2,
-                                "y": 1
-                              },
-                              {
-                                "x": 201,
-                                "y": 1
-                              },
-                              {
-                                "x": 201,
-                                "y": 63
-                              },
-                              {
-                                "x": 2,
-                                "y": 63
-                              }
-                            ]
-                          ]
-                        }
-                      ]
-                    }
-                  ]
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": []
                 }
               ]
             }
-          ],
-          "objectsFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "objectName": "State"
-              }
-            ]
-          },
-          "objectsGroups": [],
-          "layers": [
-            {
-              "ambientLightColorB": 200,
-              "ambientLightColorG": 200,
-              "ambientLightColorR": 200,
-              "camera3DFarPlaneDistance": 10000,
-              "camera3DFieldOfView": 45,
-              "camera3DNearPlaneDistance": 3,
-              "cameraType": "",
-              "followBaseLayerCamera": false,
-              "isLightingLayer": false,
-              "isLocked": false,
-              "name": "",
-              "renderingType": "",
-              "visibility": true,
-              "cameras": [
-                {
-                  "defaultSize": true,
-                  "defaultViewport": true,
-                  "height": 0,
-                  "viewportBottom": 1,
-                  "viewportLeft": 0,
-                  "viewportRight": 1,
-                  "viewportTop": 0,
-                  "width": 0
-                }
-              ],
-              "effects": []
-            }
-          ],
-          "instances": [
-            {
-              "angle": 0,
-              "customSize": true,
-              "depth": 0,
-              "height": 64,
-              "layer": "",
-              "name": "State",
-              "persistentUuid": "bda60bb1-c312-4710-baf7-ec7a3887c076",
-              "width": 202,
-              "x": 0,
-              "y": 0,
-              "zOrder": 1,
-              "numberProperties": [],
-              "stringProperties": [],
-              "initialVariables": []
-            }
           ]
+        }
+      ],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "State"
+          }
+        ]
+      },
+      "objectsGroups": [],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        }
+      ],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 64,
+          "layer": "",
+          "name": "State",
+          "persistentUuid": "bda60bb1-c312-4710-baf7-ec7a3887c076",
+          "width": 64,
+          "x": 0,
+          "y": 0,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ]
     }

@@ -1,8 +1,8 @@
 {
   "b": 255,
   "disableInputWhenNotFocused": true,
-  "mangledName": "Game_32Scene",
-  "name": "Game Scene",
+  "mangledName": "Game_32Scene_32tien",
+  "name": "Game Scene tien",
   "r": 255,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.9934433498259989,
+    "zoomFactor": 0.43357743047025565,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -253,11 +253,11 @@
       "height": 0,
       "keepRatio": true,
       "layer": "",
-      "name": "NewText",
-      "persistentUuid": "b6b3de2e-64cc-4fef-ae0e-7f56feeb9309",
+      "name": "Obstacle",
+      "persistentUuid": "1fcbb83a-0b44-428d-a4eb-51c0b43f00a2",
       "width": 0,
-      "x": 602,
-      "y": 387,
+      "x": 611,
+      "y": 167,
       "zOrder": 16,
       "numberProperties": [],
       "stringProperties": [],
@@ -478,7 +478,6 @@
       "assetStoreId": "e71bd69f896d6c7531b48c65ceb5da25071d4fbdeb518aeceecba8d21f34ed8d",
       "name": "Joystick_Movement",
       "type": "SpriteMultitouchJoystick::SpriteMultitouchJoystick",
-      "variant": "",
       "variables": [],
       "effects": [],
       "behaviors": [],
@@ -786,7 +785,6 @@
       "assetStoreId": "",
       "name": "ControlsToggle",
       "type": "SpriteToggleSwitch::SpriteToggleSwitch",
-      "variant": "Controls toggle",
       "variables": [],
       "effects": [],
       "behaviors": [],
@@ -897,48 +895,6 @@
           ]
         }
       }
-    },
-    {
-      "assetStoreId": "",
-      "bold": false,
-      "italic": false,
-      "name": "NewText",
-      "smoothed": true,
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "string": "tst",
-      "font": "",
-      "textAlignment": "left",
-      "characterSize": 20,
-      "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
-      },
-      "content": {
-        "bold": false,
-        "isOutlineEnabled": false,
-        "isShadowEnabled": false,
-        "italic": false,
-        "outlineColor": "255;255;255",
-        "outlineThickness": 2,
-        "shadowAngle": 90,
-        "shadowBlurRadius": 2,
-        "shadowColor": "0;0;0",
-        "shadowDistance": 4,
-        "shadowOpacity": 127,
-        "smoothed": true,
-        "underlined": false,
-        "text": "tst",
-        "font": "",
-        "textAlignment": "left",
-        "verticalTextAlignment": "top",
-        "characterSize": 20,
-        "color": "0;0;0"
-      }
     }
   ],
   "objectsFolderStructure": {
@@ -972,9 +928,6 @@
             "objectName": "JumpButton"
           }
         ]
-      },
-      {
-        "objectName": "NewText"
       }
     ]
   },
@@ -1412,6 +1365,11 @@
         }
       ],
       "parameters": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
     }
   ],
   "layers": [
@@ -1569,10 +1527,6 @@
     {
       "name": "Shooter3DMultitouchMapper",
       "type": "SpriteMultitouchJoystick::Shooter3DMultitouchMapper"
-    },
-    {
-      "name": "Text",
-      "type": "TextContainerCapability::TextContainerBehavior"
     }
   ]
 }

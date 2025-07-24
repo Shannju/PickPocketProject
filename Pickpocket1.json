@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 237,
+    "build": 221,
     "major": 5,
     "minor": 5,
     "revision": 0
@@ -18,6 +18,7 @@
     "scaleMode": "linear",
     "sizeOnStartupMode": "",
     "templateSlug": "starting-first-person",
+    "useExternalSourceFiles": false,
     "version": "1.0.0",
     "name": "Pickpocket1",
     "description": "",
@@ -187,11 +188,15 @@
   "layouts": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/game-scene"
+      "referenceTo": "/layouts/game-scene-ws"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/game-scene2"
+      "referenceTo": "/layouts/game-scene-tien"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/game-scene-alpin"
     }
   ],
   "externalEvents": [],
@@ -217,5 +222,6 @@
       "referenceTo": "/eventsFunctionsExtensions/spritetoggleswitch"
     }
   ],
-  "externalLayouts": []
+  "externalLayouts": [],
+  "externalSourceFiles": []
 }

@@ -494,7 +494,6 @@
       "assetStoreId": "e71bd69f896d6c7531b48c65ceb5da25071d4fbdeb518aeceecba8d21f34ed8d",
       "name": "Joystick_Movement",
       "type": "SpriteMultitouchJoystick::SpriteMultitouchJoystick",
-      "variant": "",
       "variables": [],
       "effects": [],
       "behaviors": [],
@@ -802,7 +801,6 @@
       "assetStoreId": "",
       "name": "ControlsToggle",
       "type": "SpriteToggleSwitch::SpriteToggleSwitch",
-      "variant": "",
       "variables": [],
       "effects": [],
       "behaviors": [],
@@ -1388,6 +1386,18 @@
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [],
       "actions": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "TestEvent"
     }
   ],
   "layers": [

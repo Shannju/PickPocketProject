@@ -253,22 +253,6 @@
       "height": 0,
       "keepRatio": true,
       "layer": "",
-      "name": "Obstacle",
-      "persistentUuid": "1fcbb83a-0b44-428d-a4eb-51c0b43f00a2",
-      "width": 0,
-      "x": 611,
-      "y": 167,
-      "zOrder": 16,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
       "name": "Skybox",
       "persistentUuid": "b64123f2-3094-46c3-bc6c-cbb8973febbd",
       "width": 0,
@@ -300,21 +284,21 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 139,
+      "height": 56,
       "keepRatio": true,
       "layer": "MobileControls",
       "name": "TextSuccess",
       "persistentUuid": "e423af56-5a9b-409f-9e42-72f9fc86106f",
-      "width": 433,
-      "x": 439,
-      "y": 620,
+      "width": 699,
+      "x": 417,
+      "y": 487,
       "zOrder": 100,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     },
     {
-      "angle": 0,
+      "angle": 182,
       "customSize": false,
       "height": 0,
       "keepRatio": true,
@@ -322,9 +306,8 @@
       "name": "FemaleCasual",
       "persistentUuid": "b6c3f434-2f4a-46c9-b440-a5d90de07ac7",
       "width": 0,
-      "x": 633,
-      "y": 380,
-      "z": 50,
+      "x": 1070,
+      "y": 735,
       "zOrder": 202,
       "numberProperties": [],
       "stringProperties": [],
@@ -339,8 +322,8 @@
       "name": "TextFailure",
       "persistentUuid": "a2c748eb-9fb7-4b54-90e4-b9efccdc5b3a",
       "width": 0,
-      "x": 605,
-      "y": 578,
+      "x": 435,
+      "y": 558,
       "zOrder": 203,
       "numberProperties": [],
       "stringProperties": [],
@@ -355,8 +338,8 @@
       "layer": "MobileControls",
       "name": "SweetSpot",
       "persistentUuid": "aba56498-1229-431a-88ab-a49300bfb1f3",
-      "width": 377,
-      "x": 451,
+      "width": 367,
+      "x": 461,
       "y": -88,
       "zOrder": 204,
       "numberProperties": [],
@@ -376,6 +359,38 @@
       "x": 468,
       "y": 129,
       "zOrder": 205,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 162,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "CharactersShaun",
+      "persistentUuid": "ec612ffa-841d-4ce0-b3eb-070ba0ef9d20",
+      "width": 0,
+      "x": 947,
+      "y": 706,
+      "zOrder": 206,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 145,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Orc",
+      "persistentUuid": "8472c4ac-0d0d-48a8-81a1-ca82841dd6cb",
+      "width": 0,
+      "x": 960,
+      "y": 796,
+      "zOrder": 207,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -595,7 +610,6 @@
       "assetStoreId": "e71bd69f896d6c7531b48c65ceb5da25071d4fbdeb518aeceecba8d21f34ed8d",
       "name": "Joystick_Movement",
       "type": "SpriteMultitouchJoystick::SpriteMultitouchJoystick",
-      "variant": "",
       "variables": [],
       "effects": [],
       "behaviors": [],
@@ -903,7 +917,6 @@
       "assetStoreId": "",
       "name": "ControlsToggle",
       "type": "SpriteToggleSwitch::SpriteToggleSwitch",
-      "variant": "",
       "variables": [],
       "effects": [],
       "behaviors": [],
@@ -1275,18 +1288,18 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Success!!",
+      "string": "Success!! You are about to be rich",
       "font": "",
-      "textAlignment": "left",
-      "characterSize": 20,
+      "textAlignment": "center",
+      "characterSize": 40,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 71,
+        "g": 247,
+        "r": 44
       },
       "content": {
         "bold": false,
-        "isOutlineEnabled": false,
+        "isOutlineEnabled": true,
         "isShadowEnabled": false,
         "italic": false,
         "outlineColor": "255;255;255",
@@ -1298,18 +1311,18 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "Success!!",
+        "text": "Success!! You are about to be rich",
         "font": "",
-        "textAlignment": "left",
+        "textAlignment": "center",
         "verticalTextAlignment": "top",
-        "characterSize": 20,
-        "color": "0;0;0"
+        "characterSize": 40,
+        "color": "44;247;71"
       }
     },
     {
       "assetStoreId": "",
       "bold": false,
-      "italic": false,
+      "italic": true,
       "name": "TextFailure",
       "smoothed": true,
       "type": "TextObject::Text",
@@ -1317,20 +1330,20 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Failure!!",
+      "string": "Failure!! You are about to be beaten",
       "font": "",
-      "textAlignment": "left",
-      "characterSize": 20,
+      "textAlignment": "center",
+      "characterSize": 40,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 11,
+        "g": 11,
+        "r": 241
       },
       "content": {
         "bold": false,
         "isOutlineEnabled": false,
-        "isShadowEnabled": false,
-        "italic": false,
+        "isShadowEnabled": true,
+        "italic": true,
         "outlineColor": "255;255;255",
         "outlineThickness": 2,
         "shadowAngle": 90,
@@ -1340,12 +1353,12 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "Failure!!",
+        "text": "Failure!! You are about to be beaten",
         "font": "",
-        "textAlignment": "left",
+        "textAlignment": "center",
         "verticalTextAlignment": "top",
-        "characterSize": 20,
-        "color": "0;0;0"
+        "characterSize": 40,
+        "color": "241;11;11"
       }
     },
     {
@@ -1431,6 +1444,205 @@
           }
         ]
       }
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "NewTiledSprite",
+      "texture": "",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "9e47ffc4ee368debac60601e089b16601d1b7cb80d93cd0d3875920cef506f2b",
+      "name": "CharactersShaun",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "crossfadeDuration": 0.10000000149011612,
+        "depth": 121,
+        "height": 121,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Characters Shaun.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 121,
+        "animations": [
+          {
+            "loop": true,
+            "name": "Idle",
+            "source": "Idle"
+          },
+          {
+            "loop": true,
+            "name": "Walk",
+            "source": "Walk"
+          },
+          {
+            "loop": true,
+            "name": "Run",
+            "source": "Run"
+          },
+          {
+            "loop": false,
+            "name": "Duck",
+            "source": "Duck"
+          },
+          {
+            "loop": false,
+            "name": "Jump",
+            "source": "Jump"
+          },
+          {
+            "loop": false,
+            "name": "Punch",
+            "source": "Punch"
+          },
+          {
+            "loop": false,
+            "name": "Death",
+            "source": "Death"
+          },
+          {
+            "loop": false,
+            "name": "HitReact",
+            "source": "HitReact"
+          },
+          {
+            "loop": true,
+            "name": "IdleGun",
+            "source": "Idle_Gun"
+          },
+          {
+            "loop": true,
+            "name": "JumpIdle",
+            "source": "Jump_Idle"
+          },
+          {
+            "loop": false,
+            "name": "JumpLand",
+            "source": "Jump_Land"
+          },
+          {
+            "loop": false,
+            "name": "No",
+            "source": "No"
+          },
+          {
+            "loop": true,
+            "name": "RunGun",
+            "source": "Run_Gun"
+          },
+          {
+            "loop": false,
+            "name": "RunSlash",
+            "source": "Run_Slash"
+          },
+          {
+            "loop": false,
+            "name": "RunStab",
+            "source": "Run_Stab"
+          },
+          {
+            "loop": false,
+            "name": "Slash",
+            "source": "Slash"
+          },
+          {
+            "loop": false,
+            "name": "Stab",
+            "source": "Stab"
+          },
+          {
+            "loop": true,
+            "name": "WalkGun",
+            "source": "Walk_Gun"
+          },
+          {
+            "loop": false,
+            "name": "Wave",
+            "source": "Wave"
+          },
+          {
+            "loop": false,
+            "name": "Yes",
+            "source": "Yes"
+          }
+        ]
+      }
+    },
+    {
+      "assetStoreId": "bc008642fb9974188307d0e0400bcfdf2fc5f34b72ee22d7c5f328da3e7a17d1",
+      "name": "Orc",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "crossfadeDuration": 0.10000000149011612,
+        "depth": 79,
+        "height": 79,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Orc.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 79,
+        "animations": [
+          {
+            "loop": true,
+            "name": "Idle",
+            "source": "Idle"
+          },
+          {
+            "loop": true,
+            "name": "Walk",
+            "source": "Walk"
+          },
+          {
+            "loop": false,
+            "name": "Jump",
+            "source": "Jump"
+          },
+          {
+            "loop": false,
+            "name": "Death",
+            "source": "Death"
+          },
+          {
+            "loop": false,
+            "name": "Bite",
+            "source": "Bite_Front"
+          },
+          {
+            "loop": false,
+            "name": "Dance",
+            "source": "Dance"
+          },
+          {
+            "loop": false,
+            "name": "No",
+            "source": "No"
+          },
+          {
+            "loop": false,
+            "name": "Yes",
+            "source": "Yes"
+          }
+        ]
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -1464,6 +1676,33 @@
             "objectName": "JumpButton"
           }
         ]
+      },
+      {
+        "objectName": "SweetSpot"
+      },
+      {
+        "objectName": "MouseCursor"
+      },
+      {
+        "objectName": "TextSuccess"
+      },
+      {
+        "objectName": "FemaleCasual"
+      },
+      {
+        "objectName": "Orc"
+      },
+      {
+        "objectName": "CharactersShaun"
+      },
+      {
+        "objectName": "TextFailure"
+      },
+      {
+        "objectName": "TimingBar"
+      },
+      {
+        "objectName": "NewTiledSprite"
       }
     ]
   },
@@ -1551,6 +1790,22 @@
             "",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "TextSuccess"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "TextFailure"
+          ]
         }
       ]
     },
@@ -1559,7 +1814,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Controls toggle",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -1910,54 +2164,112 @@
       "name": "MiniChallenge",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
-      "events": [],
-      "parameters": []
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
+      "events": [
         {
-          "type": {
-            "value": "KeyFromTextPressed"
-          },
-          "parameters": [
-            "",
-            "\"q\""
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "MouseCursor",
+                "SweetSpot",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "BehaviorActivated"
+              },
+              "parameters": [
+                "MouseCursor",
+                "TimedBackAndForthMirroredMovement"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "TextSuccess",
+                ""
+              ]
+            }
           ]
         },
         {
-          "type": {
-            "value": "CollisionNP"
-          },
-          "parameters": [
-            "MouseCursor",
-            "SweetSpot",
-            "",
-            "",
-            ""
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "MouseCursor",
+                "SweetSpot",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "BehaviorActivated"
+              },
+              "parameters": [
+                "MouseCursor",
+                "TimedBackAndForthMirroredMovement"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "TextFailure",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"q\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "MouseCursor",
+                "TimedBackAndForthMirroredMovement",
+                ""
+              ]
+            }
           ]
         }
       ],
-      "actions": [
-        {
-          "type": {
-            "value": "Arreter"
-          },
-          "parameters": [
-            "MouseCursor"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
+      "parameters": []
     }
   ],
   "layers": [

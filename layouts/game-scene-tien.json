@@ -253,6 +253,22 @@
       "height": 0,
       "keepRatio": true,
       "layer": "",
+      "name": "Obstacle",
+      "persistentUuid": "1fcbb83a-0b44-428d-a4eb-51c0b43f00a2",
+      "width": 0,
+      "x": 611,
+      "y": 167,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
       "name": "Skybox",
       "persistentUuid": "b64123f2-3094-46c3-bc6c-cbb8973febbd",
       "width": 0,
@@ -579,6 +595,7 @@
       "assetStoreId": "e71bd69f896d6c7531b48c65ceb5da25071d4fbdeb518aeceecba8d21f34ed8d",
       "name": "Joystick_Movement",
       "type": "SpriteMultitouchJoystick::SpriteMultitouchJoystick",
+      "variant": "",
       "variables": [],
       "effects": [],
       "behaviors": [],
@@ -886,6 +903,7 @@
       "assetStoreId": "",
       "name": "ControlsToggle",
       "type": "SpriteToggleSwitch::SpriteToggleSwitch",
+      "variant": "",
       "variables": [],
       "effects": [],
       "behaviors": [],
@@ -1446,24 +1464,6 @@
             "objectName": "JumpButton"
           }
         ]
-      },
-      {
-        "objectName": "SweetSpot"
-      },
-      {
-        "objectName": "MouseCursor"
-      },
-      {
-        "objectName": "TextSuccess"
-      },
-      {
-        "objectName": "FemaleCasual"
-      },
-      {
-        "objectName": "TextFailure"
-      },
-      {
-        "objectName": "TimingBar"
       }
     ]
   },
@@ -1551,22 +1551,6 @@
             "",
             ""
           ]
-        },
-        {
-          "type": {
-            "value": "Cache"
-          },
-          "parameters": [
-            "TextSuccess"
-          ]
-        },
-        {
-          "type": {
-            "value": "Cache"
-          },
-          "parameters": [
-            "TextFailure"
-          ]
         }
       ]
     },
@@ -1575,6 +1559,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Controls toggle",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -1718,6 +1703,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Mobile controls",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",

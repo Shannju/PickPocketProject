@@ -678,8 +678,6 @@
           "value": "",
           "type": "Behavior",
           "label": "Button finite state machine",
-          "description": "",
-          "group": "",
           "extraInformation": [
             "SpriteToggleSwitch::ButtonFSM"
           ],
@@ -689,18 +687,12 @@
           "value": "false",
           "type": "Boolean",
           "label": "Is checked",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "IsChecked"
         },
         {
           "value": "",
           "type": "Boolean",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "PreviousIsChecked"
         },
@@ -708,9 +700,6 @@
           "value": "",
           "type": "Boolean",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "WasChecked"
         }
@@ -1803,8 +1792,6 @@
           "type": "Boolean",
           "label": "",
           "description": "Should check hovering",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "ShouldCheckHovering"
         },
@@ -1812,8 +1799,6 @@
           "value": "Idle",
           "type": "Choice",
           "label": "State",
-          "description": "",
-          "group": "",
           "extraInformation": [
             "Idle",
             "Hovered",
@@ -1828,9 +1813,6 @@
           "value": "0",
           "type": "Number",
           "label": "Touch id",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "TouchId"
         },
@@ -1838,9 +1820,6 @@
           "value": "",
           "type": "Boolean",
           "label": "Touch is inside",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "TouchIsInside"
         },
@@ -1848,9 +1827,6 @@
           "value": "",
           "type": "Boolean",
           "label": "Mouse is inside",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "MouseIsInside"
         },
@@ -1858,9 +1834,6 @@
           "value": "",
           "type": "Number",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "Index"
         }
@@ -1881,6 +1854,117 @@
       "fullName": "Toggle switch",
       "isUsingLegacyInstancesRenderer": false,
       "name": "SpriteToggleSwitch",
+      "objects": [
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "State",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "ButtonFSM",
+              "type": "SpriteToggleSwitch::ButtonFSM",
+              "ShouldCheckHovering": true,
+              "State": "Idle",
+              "TouchId": 0,
+              "TouchIsInside": false,
+              "MouseIsInside": false,
+              "Index": 0
+            },
+            {
+              "name": "SwitchFSM",
+              "type": "SpriteToggleSwitch::SwitchFSM",
+              "ButtonFSM": "ButtonFSM",
+              "IsChecked": false,
+              "WasChecked": false
+            }
+          ],
+          "animations": [
+            {
+              "name": "Unchecked",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": []
+                }
+              ]
+            },
+            {
+              "name": "Checked",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": []
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "State"
+          }
+        ]
+      },
+      "objectsGroups": [],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        }
+      ],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 64,
+          "layer": "",
+          "name": "State",
+          "persistentUuid": "bda60bb1-c312-4710-baf7-ec7a3887c076",
+          "width": 64,
+          "x": 0,
+          "y": 0,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
       "eventsFunctions": [
         {
           "fullName": "",
@@ -2912,9 +2996,6 @@
           "value": "true",
           "type": "Boolean",
           "label": "Is checked",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "IsChecked"
         },
         {
@@ -2922,8 +3003,6 @@
           "type": "Boolean",
           "label": "",
           "description": "It's used to detect a change at hot reload.",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "PreviousIsChecked"
         }

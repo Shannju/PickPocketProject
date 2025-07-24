@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.43357743047025565,
+    "zoomFactor": 0.8700232859857671,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -262,6 +262,22 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Obstacle",
+      "persistentUuid": "1eb13a0d-0c62-4f6c-9836-b9137a3e76c1",
+      "width": 0,
+      "x": 597,
+      "y": 359,
+      "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -478,6 +494,7 @@
       "assetStoreId": "e71bd69f896d6c7531b48c65ceb5da25071d4fbdeb518aeceecba8d21f34ed8d",
       "name": "Joystick_Movement",
       "type": "SpriteMultitouchJoystick::SpriteMultitouchJoystick",
+      "variant": "",
       "variables": [],
       "effects": [],
       "behaviors": [],
@@ -785,6 +802,7 @@
       "assetStoreId": "",
       "name": "ControlsToggle",
       "type": "SpriteToggleSwitch::SpriteToggleSwitch",
+      "variant": "",
       "variables": [],
       "effects": [],
       "behaviors": [],
